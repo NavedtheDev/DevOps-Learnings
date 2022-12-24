@@ -22,3 +22,6 @@ We will discuss each of these volume types one by one.
 
 
 # Remote Storage #
+* They live outside of the kubernetes cluster.
+* Unlike emptydir and hostpath volumes, in case of remote storage volumes when the pod will spin up on a new node it will mount the same remote storage volume beacause that is living outside to the cluster. In this way the data will be there even if the cluster goes down.
+* Also, there won't be any inconsistencies if the pod goes from one node to the other due to eviction or any other reason.
