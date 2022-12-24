@@ -12,9 +12,9 @@ We will discuss each of these volume types one by one.
 * This volume gets created as soon as the pod is assigned to the node. It stays throughout the lifespan of the pod and as soon as the pod is deleted, emptydir is removed. It will stay even if container crashes because it's related to pod lifecycle.
 * Use Cases
        
-       1. When a long computation needs to be done in memory.
-       2. as a cache
-       3. scratch space, for a sort algorithm for example.
+      1. When a long computation needs to be done in memory.
+      2. as a cache
+      3. scratch space, for a sort algorithm for example.
 * Emptydir can be either based on the node's disk attached to the node or if you specify the emptydir medium in the emptydir section, it will create a temporary filesystem and use the RAM as the volume for that.
 * We can write the YAML file for that as, 
 ```
@@ -34,6 +34,16 @@ spec:
   - name: demo-volume
     emptyDir: {} 
  ```
+
+
+# HostPath #
+
+* This volume mounts a file or a directory from the node's file system into the pod. A hostpath will mount a directory which is present on the node and mount it inside the container.
+* Use Cases: 
+
+      1. Running a container that needs access to Docker internals.
+      2. Deploying some node specific files through pod.
+      3. It offers a powerful escape hatch for some applications.
 
 
 
