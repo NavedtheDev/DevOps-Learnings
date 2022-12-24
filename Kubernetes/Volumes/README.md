@@ -15,3 +15,5 @@ We will discuss each of these volume types one by one.
        1. When a long computation needs to be done in memory.
        2. as a cache
        3. scratch space, for a sort algorithm for example.
+* Emptydir can be either based on the node's disk attached to the node or if you specify the emptydir medium in the emptydir section, it will create a temporary filesystem and use the RAM as the volume for that.
+* We can write the YAML file for that as, 
