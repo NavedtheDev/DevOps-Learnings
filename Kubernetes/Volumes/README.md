@@ -17,8 +17,24 @@ We will discuss each of these volume types one by one.
        3. scratch space, for a sort algorithm for example.
 * Emptydir can be either based on the node's disk attached to the node or if you specify the emptydir medium in the emptydir section, it will create a temporary filesystem and use the RAM as the volume for that.
 * We can write the YAML file for that as, 
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myvolumes-pod
+spec:
+  containers:
+  - image: alpine
+    name: myvolumes-container
+    command: ['sh', '-c', 'sleep 3000']
+    volumeMounts:
+    - mountPath: /demo
+      name: demo-volume
+  volumes:
+  - name: demo-volume
+    emptyDir: {} 
+ ```
 
-![emptydirYAML](https://user-images.githubusercontent.com/98219227/209424689-d6f3a3a4-75d9-4125-8c3a-4459029c676a.png)
 
 
 # Remote Storage #
