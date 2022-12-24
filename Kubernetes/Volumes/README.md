@@ -10,3 +10,8 @@ We will discuss each of these volume types one by one.
 # Emptydir #
 
 * This volume gets created as soon as the pod is assigned to the node. It stays throughout the lifespan of the pod and as soon as the pod is deleted, emptydir is removed. It will stay even if container crashes because it's related to pod lifecycle.
+* Use Cases
+       
+       1. When a long computation needs to be done in memory.
+       2. as a cache
+       3. scratch space, for a sort algorithm for example.
