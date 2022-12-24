@@ -19,3 +19,6 @@ We will discuss each of these volume types one by one.
 * We can write the YAML file for that as, 
 
 ![emptydirYAML](https://user-images.githubusercontent.com/98219227/209424689-d6f3a3a4-75d9-4125-8c3a-4459029c676a.png)
+
+
+# Remote Storage #
