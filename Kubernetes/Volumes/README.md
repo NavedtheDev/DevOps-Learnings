@@ -47,6 +47,8 @@ spec:
 
 * We do not use hostpath volume for production purposes, the reason being that suppose next time the pod gets deleted and gets recreated on a differenet node then the files that were there on the hostpath oof that node would not be on the new node. So, there will be a mismatch in the files and you will not get the desired result as expected.
 
+
+
 # Remote Storage #
 * They live outside of the kubernetes cluster.
 * Unlike emptydir and hostpath volumes, in case of remote storage volumes when the pod will spin up on a new node it will mount the same remote storage volume beacause that is living outside to the cluster. In this way the data will be there even if the cluster goes down.
