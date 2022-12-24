@@ -45,7 +45,7 @@ spec:
       2. Deploying some node specific files through pod.
       3. It offers a powerful escape hatch for some applications.
 
-
+* We do not use hostpath volume for production purposes, the reason being that suppose next time the pod gets deleted and gets recreated on a differenet node then the files that were there on the hostpath oof that node would not be on the new node. So, there will be a mismatch in the files and you will not get the desired result as expected.
 
 # Remote Storage #
 * They live outside of the kubernetes cluster.
