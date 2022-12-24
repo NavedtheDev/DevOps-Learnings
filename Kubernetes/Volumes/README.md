@@ -5,3 +5,4 @@ Kubernetes provides various volume plugins that can be mounted inside the contai
 
 
 Have a look at this visual representation.
+We will discuss each of these volume types one by one.
