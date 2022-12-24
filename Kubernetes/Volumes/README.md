@@ -53,3 +53,23 @@ spec:
 * They live outside of the kubernetes cluster.
 * Unlike emptydir and hostpath volumes, in case of remote storage volumes when the pod will spin up on a new node it will mount the same remote storage volume beacause that is living outside to the cluster. In this way the data will be there even if the cluster goes down.
 * Also, there won't be any inconsistencies if the pod goes from one node to the other due to eviction or any other reason.
+```
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pod-using-nfs
+spec: 
+  volumes:
+    - name: nfs-volume
+      nfs: 
+        server: 91.211.152.190
+        path: /var/nfsshare
+  containers:
+    - name: app
+      image: alpine
+      volumeMounts:
+        - name: nfs-volume
+          mountPath: /mnt
+      command: ["/bin/sh"]
+      args: ["-c", "while true; do date >> /mnt/dates.txt; sleep 5; done"]
+```
