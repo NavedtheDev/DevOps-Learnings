@@ -2,7 +2,19 @@ ConfigMaps and Secrets are another set of ephemeral volumes. These can be mounte
 
 # ConfigMaps #
 
-It is used to store a set of configurations 
+It is used to store a set of configurations.
+
+Here is a configmap which is mounted as a volume.
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-for-volume
+  namespace: default
+data:
+  key1: val1
+  key2: val2
+```
 
 
 
