@@ -24,17 +24,16 @@ data:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: test-pod
+  name: secret-pod-volume
   spec:
     containers:
-      - name: test-pod
-        image: redis
+      - name: demo2
+        image: nginx
         volumeMounts:
-        - name: newsecret
-          mountPath: “/etc/newsecret”
-          readOnly: true
+        - name: vol-secret
+          mountPath: /etc/vol-secret
     volumes:
-    - name: newsecret
+    - name: vol-secret
       secret:
-        secretName: newsecret
+        secretName: demo
 ```
