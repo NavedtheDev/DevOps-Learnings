@@ -15,7 +15,24 @@ data:
   key1: val1
   key2: val2
 ```
-
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cm-volume
+  spec:
+    containers:
+      - name: demo
+        image: busybox
+        command: ["/bin/sh", "-c", "ls /home/config"]
+        volumeMounts:
+        - name: cm-volume
+          mountPath: /home/config
+    volumes:
+    - name: cm-volume
+      configMap:
+        name: cm-for-volume
+```
 
 
 # Secrets #
