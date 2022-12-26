@@ -83,3 +83,14 @@ spec:
 * Persistent volume has to be created by the admin. It can be created statically or dynamically. If a storage class is present then it is a dynamic provisioning else it's a static provisioning. 
 * Suppose you create a PVC and there is no storage class, so the PVC will remain unbound. Now you create a PV manually, and once the PV is created manually, then the PVC gets bound to that PV. So this was an example of static provisioning.
 * In case of dynamic provisioning, we need to define a storage class. In Kubernetes there are differenet types of storage class that can be used and have different sets of configurations. Now when the user creates the PVC, the PV gets automatically created. There are a lot of benefits to it. 
+* Now what is a storage class ? Storage class defines what kind of storage will be provisioned when a PVC is created dynamically.
+```
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+ name: local-storage
+provisioner: kubernetes.io/no-provisioner
+volumeBindingMode: WaitForFirstConsumer
+ ```
+
+
