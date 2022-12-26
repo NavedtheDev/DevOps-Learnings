@@ -121,4 +121,23 @@ spec:
     requests:
       storage: 3Gi
 ```
-
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: task-pv-pod
+spec:
+  volumes:
+    - name: pv-vol
+      persistentVolumeClaim:
+        claimName: demo-pvclaim
+  containers:
+    - name: pv-pod
+      image: nginx
+      ports:
+        - containerPort: 80
+          name: "http-server"
+      volumeMounts:
+        - mountPath: "/usr/share/nginx/html"
+          name: pv-vol
+```
