@@ -108,5 +108,17 @@ spec:
   hostPath: 
     path: "/opt/data"
 ```
-
+```
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: demo-pvclaim
+spec:
+  storageClassName: local-storage
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 3Gi
+```
 
