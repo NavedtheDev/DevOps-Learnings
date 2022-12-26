@@ -78,6 +78,8 @@ spec:
 
 # Persistent Volume and Persistent Volume Claim #
 
-Persistent volume claim is a kubernetes object. Whenever a PVC is created the master control loop will look for the new PVCs and will try to find the corresponding PV and try to bind it to that.
-Now what a PV is ? PV stands for persistent volume. It is the actual storage basically the abstraction of the actual storage backend, and it is also a kubernetes object.
-Persistent volume has to be created by the admin. It can be created statically or dynamically. If a storage 
+* Persistent volume claim is a kubernetes object. Whenever a PVC is created the master control loop will look for the new PVCs and will try to find the corresponding PV and try to bind it to that.
+* Now what a PV is ? PV stands for persistent volume. It is the actual storage basically the abstraction of the actual storage backend, and it is also a kubernetes object. It defines the storage inside the cluster. It's also the abstraction which is linked to the external storage.
+* Persistent volume has to be created by the admin. It can be created statically or dynamically. If a storage class is present then it is a dynamic provisioning else it's a static provisioning. 
+* Suppose you create a PVC and there is no storage class, so the PVC will remain unbound. Now you create a PV manually, and once the PV is created manually, then the PVC gets bound to that PV. So this was an example of static provisioning.
+* In case of dynamic provisioning, we need to define a storage class. In Kubernetes there are differenet types of storage class that can be used and have different sets of configurations. Now when the user creates the PVC, the PV gets automatically created. There are a lot of benefits to it. 
