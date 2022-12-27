@@ -141,3 +141,6 @@ spec:
         - mountPath: "/usr/share/nginx/html"
           name: pv-vol
 ```
+
+
+## How to create a PersistentVolume and PersistentVolumeClaim ##
