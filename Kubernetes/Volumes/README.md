@@ -136,7 +136,6 @@ spec:
       image: nginx
       ports:
         - containerPort: 80
-          name: "http-server"
       volumeMounts:
         - mountPath: "/usr/share/nginx/html"
           name: pv-vol
