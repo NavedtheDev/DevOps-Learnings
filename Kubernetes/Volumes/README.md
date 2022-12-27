@@ -160,4 +160,16 @@ spec:
  hostPath: 
    path: "/mnt/data"
    ```
-   
+   ```
+   apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: demo-pvclaim
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 3Gi
+```
