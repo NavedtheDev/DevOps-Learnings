@@ -144,3 +144,20 @@ spec:
 
 
 ## How to create a PersistentVolume and PersistentVolumeClaim ##
+```
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+ name: demo-pv
+ labels:
+   type: local
+spec:
+ storageClassName: manual
+ capacity:
+   storage: 5Gi
+ accessModes:
+   - ReadWriteOnce
+ hostPath: 
+   path: "/mnt/data"
+   ```
+   
