@@ -27,3 +27,9 @@
 ## Ansible uses YAML ##
 * Ansible uses YAML, that is also the reason why it became so popular.
 * So it doesn't require learning any special language.
+
+
+
+## Ansible Playbooks ##
+* To handle a complex application weneed multiple modules in a certain sequence groupef together to represent that one whole configuration, that's where Ansible Playbooks come in.
+* So first of all, the sequential modules are grouped in tasks where each task make sure the module get executed with certain arguements.
