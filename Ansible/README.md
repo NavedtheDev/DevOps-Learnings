@@ -19,3 +19,4 @@
 * Modules get pushed to the target server by control machine.
 * They do their job on the target server like install an application, stop a process, apply firewall rules, etc., and when they are done they get removed.
 * Modules are very granular. One module does one small specific task.
+* Ansible has 100's of modules that each execute a specific task. You can see the whole list of Ansible modules in the official documentation.
