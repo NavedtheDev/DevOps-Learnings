@@ -6,3 +6,16 @@
        2.  Configuration/Installation/Deployment steps in a single YAML file instead of manual and shell scripts.
        3.  Re-use same file multiple times anf dor different environments.
        4.  More reilable and less likely for errors.
+
+
+
+## Ansible is agentless ##
+* Normally when you want to use some tool on a machine you need to go to that machine and install an agent for that tool. However, to use Ansible you don't have to install anything on the target servers, you just install it on your control machine which could be even your laptop. And that machine can now manage all target machines remotely.
+
+
+
+## Modules ##
+* Ansible works with modules. Modules are small programs that do the actual work.
+* Modules get pushed to the target server by control machine.
+* They do their job on the target server like install an application, stop a process, apply firewall rules, etc., and when they are done they get removed.
+* Modules are very granular. One module does one small specific task.
