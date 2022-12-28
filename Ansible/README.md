@@ -33,3 +33,10 @@
 ## Ansible Playbooks ##
 * To handle a complex application weneed multiple modules in a certain sequence groupef together to represent that one whole configuration, that's where Ansible Playbooks come in.
 * So first of all, the sequential modules are grouped in tasks where each task make sure the module get executed with certain arguements.
+
+![Playbook](https://user-images.githubusercontent.com/98219227/209770741-f33f19dd-f9b7-4c52-8b1c-078dd17e6e8a.png)
+
+
+
+
+
