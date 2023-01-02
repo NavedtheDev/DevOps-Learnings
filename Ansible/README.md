@@ -12,6 +12,7 @@
 
 ## Ansible is agentless ##
 * Normally when you want to use some tool on a machine you need to go to that machine and install an agent for that tool. However, to use Ansible you don't have to install anything on the target servers, you just install it on your control machine which could be even your laptop. And that machine can now manage all target machines remotely.
+* Agentless means that you don't need to install any additional software on the target machines to be able to work with Ansible.
 
 
 
@@ -40,5 +41,7 @@
 
 
 
-
+# Ansible Inventory #
+* Ansible can work with one or multiple systems in your infrastructure at the same time. In order to work with multiple servers, Ansible needs to establish connectivity to those servers. This is done using SSH for Linux and PowerShell remoting for windows. That's what makes Ansible agentless. 
+* 
 
