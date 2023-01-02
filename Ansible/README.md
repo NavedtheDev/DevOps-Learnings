@@ -46,3 +46,11 @@
 * A simple SSH connectivity would suffice Ansible's needs.
 * Now, information about the target systems is stored in an inventory file. If you don’t create a new inventory file, Ansible uses the default inventory file located
 at /etc/ansible/host location. 
+* The inventory file is in an INI-like format. It's simply a number of servers listed one after the other. You can also group different servers together.
+* In inventory files we have different parameters. 
+
+                1. Ansible_host is an inventory parameter used to specify the FQDN or IP Address of a server.
+                2. Ansible_connection is what defines how Ansible connects to the target server.
+                3. Ansible_port defines which port to connect to. By default, it is set to port 22 for SSH, but if you need to change you can set it differently.
+                4. Ansible_user defines the user used to make remote connections. By default, this is set to route for Linux machines.
+                5. Ansible_SSH_pass defines the SSH password for Linux.
