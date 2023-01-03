@@ -37,7 +37,6 @@
 * A playbook is a single YAML file containing a set of plays. A play defines a set of activities to be run on a single or a group of hosts.
 * A task is a single action to be performed on a host. The different actions run by tasks are called modules.
 * The playbook is a list of dictionaries in YAML terms. Each play is a dictionary and has a set of properties called name, hosts, and tasks. The host parameter indicates which hosts you want these operations to run on.
-* Now, how to run an Ansible playbook you created. Simply just run this command " ansible-playbook <playbook filename> "
 
 
 ![Playbook](https://user-images.githubusercontent.com/98219227/209770741-f33f19dd-f9b7-4c52-8b1c-078dd17e6e8a.png)
