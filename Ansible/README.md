@@ -32,10 +32,12 @@
 
 
 ## Ansible Playbooks ##
-* To handle a complex application weneed multiple modules in a certain sequence groupef together to represent that one whole configuration, that's where Ansible Playbooks come in.
-* So first of all, the sequential modules are grouped in tasks where each task make sure the module get executed with certain arguements.
-* Now we have to define where or on which target machine this task should be executed and we do that using the HOSTS attribute. 
-* Also, we need to define with which user should the tasks execute.
+* Ansible playbooks are Ansible's orchestration language. It is in playbooks where we define what we want Ansible to do. It is a set of instructions you provide Ansible.
+* For example, it can be as simple as running a series of commands on different servers in a sequence restarting those servers in a particular order or it could be as complex as deploying hundreds of VMs in a public and private cloud infrastructure.
+* A playbook is a single YAML file containing a set of plays. A play defines a set of activities to be run on a single or a group of hosts.
+* A task is a single action to be performed on a host.
+* The playbook is a list of dictionaries in YAML terms.
+
 
 ![Playbook](https://user-images.githubusercontent.com/98219227/209770741-f33f19dd-f9b7-4c52-8b1c-078dd17e6e8a.png)
 
