@@ -72,10 +72,10 @@ vars:
 -
    name: Add DNS server to resolv.conf
    hosts: localhost
-    vars:
+   vars:
        dns_server: 10.1.250.10
    tasks: 
-        - lineinfile:
+       - lineinfile:
              path: /etc/resolv.conf
              line: 'nameserver {{ dns_server }}'
 ```
