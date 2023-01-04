@@ -56,3 +56,13 @@ at /etc/ansible/host location.
                 3. Ansible_port defines which port to connect to. By default, it is set to port 22 for SSH, but if you need to change you can set it differently.
                 4. Ansible_user defines the user used to make remote connections. By default, this is set to route for Linux machines.
                 5. Ansible_SSH_pass defines the SSH password for Linux.
+
+
+
+# Ansible Variables #
+* Variables in Ansible store information that varies with each host. 
+* To add a variable we could simply add a vars directive followed by variables in key-value pair format.
+```
+vars:
+   dns_server: 10.1.250.10
+```
