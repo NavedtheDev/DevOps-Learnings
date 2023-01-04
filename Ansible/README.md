@@ -61,8 +61,9 @@ at /etc/ansible/host location.
 
 # Ansible Variables #
 * Variables in Ansible store information that varies with each host. 
-* To add a variable we could simply add a vars directive followed by variables in key-value pair format.
+* To add a variable we could simply add a vars directive followed by variables in a key-value pair format.
 ```
 vars:
    dns_server: 10.1.250.10
 ```
+* We can also have variables defined in a separate file deicated for variables.
