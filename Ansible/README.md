@@ -66,4 +66,17 @@ at /etc/ansible/host location.
 vars:
    dns_server: 10.1.250.10
 ```
-* We can also have variables defined in a separate file deicated for variables.
+* We can also have variables defined in a separate file deicated for variables. 
+* So how do we use variables ? Here is an example.
+```
+-
+   name: Add DNS server to resolv.conf
+   hosts: localhost
+    vars:
+       dns_server: 10.1.250.10
+   tasks: 
+        - lineinfile:
+             path: /etc/resolv.conf
+             line: 'nameserver {{ dns_server }}
+```
+
