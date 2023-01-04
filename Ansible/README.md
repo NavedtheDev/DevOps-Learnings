@@ -79,4 +79,4 @@ vars:
              path: /etc/resolv.conf
              line: 'nameserver {{ dns_server }}
 ```
-
+* Remember that this format we are using to use variables in playbooks is called Jinja2 Templating.
