@@ -121,12 +121,11 @@ vars:
          - name: apache
           required : False
   tasks:
-   - name: Install {{" item.name }}" on Debian
-    apt:
-       name: {{" item.name }}"
+   - name: Install "{{ item.name }}" on Debian
+     apt:
+       name: "{{ item.name }}"
        state: present
-     when:
-             item. required == True
+     when: item. required == True
      loop: "{{ packages }}"
      
 ```
