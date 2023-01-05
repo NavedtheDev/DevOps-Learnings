@@ -81,3 +81,7 @@ vars:
 ```
 * Remember that this format we are using to use variables in playbooks is called Jinja2 Templating.
 * While using variables with Jinja2 Templating, remember to enclose it within quotes. However, if the variable is in between sentences then that is not required.
+
+
+
+# Ansible Conditionals #
