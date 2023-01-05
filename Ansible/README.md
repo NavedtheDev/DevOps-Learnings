@@ -85,3 +85,23 @@ vars:
 
 
 # Ansible Conditionals #
+* We could use the when conditional statement to specify a condition for each task. Only if the condition is true, that task is run. 
+* Here is an example
+```
+- name: Install NGINX
+  hosts: all
+  tasks:
+   - name: Install NGINX on Debian
+    apt:
+      name: nginx
+       state: present
+    when:
+           ansible_os_family == "Debian"
+  - name: Install NGINX on Redhat
+    yum:
+      name: nginx
+       state: present
+    when:
+           ansible_os_family == "RedHat"
+```
+
