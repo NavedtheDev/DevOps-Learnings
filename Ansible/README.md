@@ -105,3 +105,29 @@ vars:
            ansible_os_family == "RedHat"
 ```
 
+* Make sure to use == sign when checking equality in conditional statement. 
+* You may use an OR operator to specify either of two conditions. 
+* AND operator must satisfy both conditions. 
+* You may use conditionals in a loop as well. Here is an example
+```
+- name: Install Softwares
+  hosts: all
+  vars:
+     packages:
+         - name: nginx
+          required: True
+         - name: mysql
+          required : True
+         - name: apache
+          required : False
+  tasks:
+   - name: Install {{" item.name }}" on Debian
+    apt:
+       name: {{" item.name }}"
+       state: present
+     when:
+             item. required == True
+     loop: "{{ packages }}"
+     
+```
+
