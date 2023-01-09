@@ -173,4 +173,19 @@ vars:
          - Rahul
 ```
 * You can simply replace the username, in this case Virat, with the item variable inside double braces. 
-* 
+* The loop directive we just saw are used to create simple loops that iterate over a lot of items. There's another way to create loops in playbooks, that is using the with_ directives.
+* The playbook that we developed can also be written using the with_items directive.
+```
+-
+   name: Create users
+   hosts: localhost
+   tasks:
+     - user: name='{{ item }}'  state=present
+       with_items:
+         - Virat 
+         - Sachin
+         - Rohit
+         - Hardik
+         - Rishabh
+         - Rahul
+```
