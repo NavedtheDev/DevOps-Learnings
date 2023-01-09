@@ -163,7 +163,7 @@ vars:
    name: Create users
    hosts: localhost
    tasks:
-     - user: name='{{ item  }}'  state=present
+     - user: name='{{ item }}'  state=present
        loop:
          - Virat 
          - Sachin
@@ -172,5 +172,5 @@ vars:
          - Rishabh
          - Rahul
 ```
-* You can simply replace the username, in this case, Virat, with the item variable inside double braces. 
+* You can simply replace the username, in this case Virat, with the item variable inside double braces. 
 * 
