@@ -142,7 +142,21 @@ vars:
      - user: name=Virat   state=present
 ```
 * Here we have created just one user. What if we want to create multiple users?
-* One way to do this would be to duplicate the lines as many times as required. But that is not an efficient way. A better way to do this would be to have a single task loop over all the users. Here comes into picture Loops.
+* One way to do this would be to duplicate the lines as many times as required. 
+```
+-
+   name: Create users
+   hosts: localhost
+   tasks:
+     - user: name=Virat  state=present
+     - user: Virat       state=present
+     - user: Sachin      state=present
+     - user: Rohit       state=present
+     - user: Hardik      state=present
+     - user: Rishabh     state=present
+     - user: Rahul       state=present
+```
+* But this is not an efficient way. A better way to do this would be to have a single task loop over all the users. Here comes into picture Loops.
 * Loop is a looping directive that executes the same task multiple number of times. Each time it runs, it stores the value of each item in the loop in a variable. Consider this example.
 ```
 -
@@ -158,4 +172,5 @@ vars:
          - Rishabh
          - Rahul
 ```
-* you can simply replace the username, in this case, Virat, with the item variable inside double braces. 
+* You can simply replace the username, in this case, Virat, with the item variable inside double braces. 
+* 
