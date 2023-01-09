@@ -139,7 +139,7 @@ vars:
    name: Create users
    hosts: localhost
    tasks:
-     - user: name=joe   state=present
+     - user: name=Virat   state=present
 ```
 * Here we have created just one user. What if we want to create multiple users?
 * One way to do this would be to duplicate the lines as many times as required. But that is not an efficient way. A better way to do this would be to have a single task loop over all the users. Here comes into picture Loops.
@@ -149,7 +149,7 @@ vars:
    name: Create users
    hosts: localhost
    tasks:
-     - user: name=joe   state=present
+     - user: name='{{ item  }}'  state=present
        loop:
          - Virat 
          - Sachin
@@ -158,3 +158,4 @@ vars:
          - Rishabh
          - Rahul
 ```
+* you can simply replace the username, in this case, Virat, with the item variable inside double braces. 
