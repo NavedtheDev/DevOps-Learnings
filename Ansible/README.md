@@ -130,3 +130,15 @@ vars:
      
 ```
 
+
+
+# Ansible Loops #
+* Look at this example where we are creating an Ansible Playbook to create users in a system using the user module. The user module helps you create users on the target systems. 
+```
+-
+   name: Create users
+   hosts: localhost
+   tasks:
+     - user: name=joe   state=present
+```
+* Here we have created just one user. What if we want to create multiple users?
