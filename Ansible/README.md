@@ -189,3 +189,4 @@ vars:
          - Rishabh
          - Rahul
 ```
+* Both the playbooks give the same results.
