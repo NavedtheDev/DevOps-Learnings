@@ -66,7 +66,7 @@ at /etc/ansible/host location.
 vars:
    dns_server: 10.1.250.10
 ```
-* We can also have variables defined in a separate file deicated for variables. 
+* We can also have variables defined in a separate file dedicated for variables. 
 * So how do we use variables ? Here is an example.
 ```
 -
