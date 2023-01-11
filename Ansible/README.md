@@ -54,7 +54,7 @@ at /etc/ansible/host location.
                 1. Ansible_host is an inventory parameter used to specify the FQDN or IP Address of a server.
                 2. Ansible_connection is what defines how Ansible connects to the target server.
                 3. Ansible_port defines which port to connect to. By default, it is set to port 22 for SSH, but if you need to change you can set it differently.
-                4. Ansible_user defines the user used to make remote connections. By default, this is set to route for Linux machines.
+                4. Ansible_user defines the user used to make remote connections. By default, this is set to root for Linux machines.
                 5. Ansible_SSH_pass defines the SSH password for Linux.
 
 
