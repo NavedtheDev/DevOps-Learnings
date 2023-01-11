@@ -5,7 +5,7 @@
 
        1. Execute taks from your own machine instead of SSH into all remote servers.
        2.  Configuration/Installation/Deployment steps in a single YAML file instead of manual and shell scripts.
-       3.  Re-use same file multiple times anf dor different environments.
+       3.  Re-use same file multiple times for different environments.
        4.  More reilable and less likely for errors.
 
 
