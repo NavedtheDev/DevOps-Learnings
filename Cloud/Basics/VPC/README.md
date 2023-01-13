@@ -17,4 +17,5 @@
 
 -> Here we need to understand the Public subnets and the Private subnets. <br>
 
-<b>Public Subnet:</b> The instances here will get a public IP address and can use the Internet Gateway directly to access the internet.
+<b>Public Subnet:</b> The instances here will get a public IP address and can use the Internet Gateway directly to access the internet. <br>
+<b>Private Subnet:</b> The instances here can't access the Internet Gateway directly.
