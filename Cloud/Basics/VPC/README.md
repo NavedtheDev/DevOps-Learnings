@@ -13,4 +13,8 @@
 
 -> So we create route tables and assign them to our subnets. <br>
 
--> An Internet Gateway is used to connect to the internet.
+-> An Internet Gateway is used to connect to the internet. <br>
+
+-> Here we need to understand the Public subnets and the Private subnets. <br>
+
+<b>Public Subnet:</b> The instances here will get a public IP address and can use the Internet Gateway directly to access the internet.
