@@ -15,3 +15,5 @@
 * By the way, Security Groups are within a VPC. So you create your Security Groups for each VPC.
 
 # Stateful vs. Stateless Firewalls #
+
+* A stateful firewall is the one which don't need any outbound rules to send traffic whereas a stateless firewall is the one which requires outbound rules to send traffic.
