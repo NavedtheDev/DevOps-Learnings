@@ -17,3 +17,5 @@
 # Stateful vs. Stateless Firewalls #
 
 * A stateful firewall is the one which don't need any outbound rules to send traffic whereas a stateless firewall is the one which requires outbound rules to send traffic.
+
+* A Security Group is a stateful firewall and a Network ACL is a stateless firewall.
