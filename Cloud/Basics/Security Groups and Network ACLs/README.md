@@ -13,3 +13,5 @@
 * A Security Group will deny all traffic by default.
 
 * By the way, Security Groups are within a VPC. So you create your Security Groups for each VPC.
+
+# Stateful vs. Stateless Firewalls #
