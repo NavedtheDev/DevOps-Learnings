@@ -10,13 +10,13 @@
 
 
 
-## Ansible is agentless ##
+# Ansible is agentless #
 * Normally when you want to use some tool on a machine you need to go to that machine and install an agent for that tool. However, to use Ansible you don't have to install anything on the target servers, you just install it on your control machine which could be even your laptop. And that machine can now manage all target machines remotely.
 * Agentless means that you don't need to install any additional software on the target machines to be able to work with Ansible.
 * One of the major disadvantages of most other orchestration tools is that you are required to configure an agent on the target systems before you can invoke any kind of automation.
 
 
-## Modules ##
+# Modules #
 * Ansible works with modules. Modules are small programs that do the actual work.
 * Modules get pushed to the target server by control machine.
 * They do their job on the target server like install an application, stop a process, apply firewall rules, etc., and when they are done they get removed.
@@ -31,7 +31,7 @@
 
 
 
-## Ansible Playbooks ##
+# Ansible Playbooks #
 * Ansible playbooks are Ansible's orchestration language. It is in playbooks where we define what we want Ansible to do. It is a set of instructions you provide Ansible.
 * For example, it can be as simple as running a series of commands on different servers in a sequence restarting those servers in a particular order or it could be as complex as deploying hundreds of VMs in a public and private cloud infrastructure.
 * A playbook is a single YAML file containing a set of plays. A play defines a set of activities to be run on a single or a group of hosts.
