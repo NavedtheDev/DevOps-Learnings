@@ -82,8 +82,8 @@ vars:
 
 
 # Ansible Conditionals #
-* We could use the when conditional statement to specify a condition for each task. Only if the condition is true, that task is run. 
-* Here is an example
+* We could use the when conditional statement to specify a condition for each task. Only if the condition is true, that task will run. 
+* Here is an example.
 ```
 - name: Install NGINX
   hosts: all
