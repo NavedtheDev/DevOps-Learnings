@@ -25,7 +25,7 @@
 
 
 
-## Ansible uses YAML ##
+# Ansible uses YAML #
 * Ansible uses YAML, that is also the reason why it became so popular.
 * So it doesn't require learning any special language.
 
