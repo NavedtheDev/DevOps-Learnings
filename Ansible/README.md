@@ -145,13 +145,12 @@ vars:
    name: Create users
    hosts: localhost
    tasks:
-     - user: name=Virat  state=present
-     - user: Virat       state=present
-     - user: Sachin      state=present
-     - user: Rohit       state=present
-     - user: Hardik      state=present
-     - user: Rishabh     state=present
-     - user: Rahul       state=present
+     - user: name=Virat       state=present
+     - user: name=Sachin      state=present
+     - user: name=Rohit       state=present
+     - user: name=Hardik      state=present
+     - user: name=Rishabh     state=present
+     - user: name=Rahul       state=present
 ```
 * But this is not an efficient way. A better way to do this would be to have a single task loop over all the users. Here comes into picture Loops.
 * Loop is a looping directive that executes the same task multiple number of times. Each time it runs, it stores the value of each item in the loop in a variable. Consider this example.
