@@ -39,9 +39,6 @@
 * The playbook is a list of dictionaries in YAML terms. Each play is a dictionary and has a set of properties called name, hosts, and tasks. The host parameter indicates which hosts you want these operations to run on.
 
 
-![Playbook](https://user-images.githubusercontent.com/98219227/209770741-f33f19dd-f9b7-4c52-8b1c-078dd17e6e8a.png)
-
-
 
 # Ansible Inventory #
 * Ansible can work with one or multiple systems in your infrastructure at the same time. In order to work with multiple servers, Ansible needs to establish connectivity to those servers. This is done using SSH for Linux and PowerShell remoting for windows. That's what makes Ansible agentless. 
