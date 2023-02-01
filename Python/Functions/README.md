@@ -39,24 +39,24 @@ calculation_to_units = 24 * 60 * 60
 name_of_unit = "seconds"
 
 
-def days_to_units(num_of_days):
+def days_to_units(num_of_days, custom_message):
     print(f"{num_of_days} Days are {num_of_days * calculation_to_units} {name_of_unit}")
-    print("All Good!")
+    print(custom_message)
 
 
-days_to_units(20)
-days_to_units(35)
-days_to_units(50)
-days_to_units(110)
+days_to_units(20, "Awesome!")
+days_to_units(35, "Looks good")
+days_to_units(50, "nice")
+days_to_units(110, "great")
 ```
 Output of the above program will be,
 ```
 20 Days are 1728000 seconds
-All Good!
+Awesome!
 35 Days are 3024000 seconds
-All Good!
+Looks good
 50 Days are 4320000 seconds
-All Good!
+nice
 110 Days are 9504000 seconds
-All Good!
+great
 ```
