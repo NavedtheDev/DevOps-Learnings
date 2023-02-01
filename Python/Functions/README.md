@@ -31,3 +31,5 @@ Note that the function will not be executed unless and until it is called.
 
 
 # Function Parameters #
+* Information can be passed into functions as parameters.
+* Parameters are also called arguments.
