@@ -26,3 +26,4 @@ Output of the above program will be,
 20 Days are 1728000 seconds
 All Good!
 ```
+Note that the function will not be executed unless and until it is called.
