@@ -27,3 +27,7 @@ Output of the above program will be,
 All Good!
 ```
 Note that the function will not be executed unless and until it is called.
+
+
+
+# Function Parameters #
