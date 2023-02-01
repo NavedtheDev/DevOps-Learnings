@@ -46,3 +46,8 @@ def days_to_units(num_of_days):
 
 days_to_units(35)
 ```
+Output of the above program will be,
+```
+35 Days are 3024000 seconds
+All Good!
+```
