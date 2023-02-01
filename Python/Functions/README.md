@@ -33,3 +33,16 @@ Note that the function will not be executed unless and until it is called.
 # Function Parameters #
 * Information can be passed into functions as parameters.
 * Parameters are also called arguments.
+* Here is an example,
+```
+calculation_to_units = 24 * 60 * 60
+name_of_unit = "seconds"
+
+
+def days_to_units(num_of_days):
+    print(f"{num_of_days} Days are {num_of_days * calculation_to_units} {name_of_unit}")
+    print("All Good!")
+
+
+days_to_units(35)
+```
