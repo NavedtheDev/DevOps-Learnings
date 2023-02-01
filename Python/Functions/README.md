@@ -21,3 +21,8 @@ def days_to_units():
 
 days_to_units()
 ```
+Output of the above program will be,
+```
+20 Days are 1728000 seconds
+All Good!
+```
