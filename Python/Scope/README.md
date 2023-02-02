@@ -22,3 +22,7 @@ days_to_units(110, "great")
 ```
 
 In the above example, the two variables passed in the function parameter are available only inside that function because they were created within that function.
+
+
+
+* Global variables are accessible to all the functions.
