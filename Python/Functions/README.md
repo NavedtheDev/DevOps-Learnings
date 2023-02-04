@@ -60,3 +60,22 @@ nice
 110 Days are 9504000 seconds
 great
 ```
+
+
+
+## Function returning a value ##
+
+* Here is an example of a function returning a value
+
+```
+calculation_to_units = 24 * 60 * 60
+name_of_unit = "seconds"
+
+
+def days_to_units(num_of_days):
+    return f"{num_of_days} Days are {num_of_days * calculation_to_units} {name_of_unit}"
+    
+    
+my_var = days_to_units(35)
+print(my_var)
+```
