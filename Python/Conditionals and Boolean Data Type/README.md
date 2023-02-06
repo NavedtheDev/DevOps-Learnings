@@ -47,6 +47,7 @@ print(calculated_value)
 
 
 
+* You can have multiple elif between if / else statements.
 * type( ) prints out the data type of the variable. For example,
 
 ```
