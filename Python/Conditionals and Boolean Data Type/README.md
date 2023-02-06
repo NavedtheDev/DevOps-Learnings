@@ -45,4 +45,4 @@ print(calculated_value)
 
 
 
-* type() prints out the data type of the function.
+* type( ) prints out the data type of the variable.
