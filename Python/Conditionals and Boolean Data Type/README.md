@@ -49,5 +49,5 @@ print(calculated_value)
 
 ```
 condition_check = num_of_days > 0
-print(type(condition_check))
+print(type(condition_check))       // an example of nested function call
 ```
