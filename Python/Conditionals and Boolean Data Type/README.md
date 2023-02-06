@@ -32,6 +32,8 @@ def days_to_units(num_of_days):
     print(num_of_days > 0)       // this will print either TRUE or FALSE
     if num_of_days > 0:
         return f"{num_of_days} Days are {num_of_days * calculation_to_units} {name_of_unit}"
+    elif num_of_days == 0:      //  elif is a combination of else and if
+        return "0 is not an accepted input here"
     else:
         return "Wrong Input"
 
