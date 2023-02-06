@@ -16,3 +16,9 @@ user_input_number = int(user_input)
 calculated_value = days_to_units(user_input_number)
 print(calculated_value)
 ```
+
+
+
+## Boolean Data Type ##
+
+* Boolean can only have two values: <b>TRUE</b> or <b>FALSE</b>
