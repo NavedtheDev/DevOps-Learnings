@@ -42,3 +42,7 @@ user_input_number = int(user_input)
 calculated_value = days_to_units(user_input_number)
 print(calculated_value)
 ```
+
+
+
+* type() prints out the data type of the function.
