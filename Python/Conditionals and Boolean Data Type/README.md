@@ -45,4 +45,9 @@ print(calculated_value)
 
 
 
-* type( ) prints out the data type of the variable.
+* type( ) prints out the data type of the variable. For example,
+
+```
+condition_check = num_of_days > 0
+print(type(condition_check))
+```
