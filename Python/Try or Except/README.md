@@ -29,3 +29,7 @@ def validate_and_execute():
 user_input = input("Hey, enter a value\n")
 validate_and_execute()
 ```
+
+
+
+* We can also leave <b>except</b> without anything after it, so it will handle any kind of error.
