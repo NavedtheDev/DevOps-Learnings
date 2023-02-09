@@ -37,6 +37,9 @@ while user_input != "exit":
 ```
 
 
+## Lists and For Loops ##
+
 
 * Lists is a datatype to store multiple items in a single variable.
 * split() is a function that returns the lists of any input value.
+* Here is an example.
