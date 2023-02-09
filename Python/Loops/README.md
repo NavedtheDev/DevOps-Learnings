@@ -75,3 +75,18 @@ while user_input != "exit":
     for num_of_days_element in user_input.split(", "):
         validate_and_execute()
 ```
+
+
+
+* You must be wondering on how to create lists within our proram.
+* Here is an example.
+
+```
+my_list = ["January", "February", "March"]
+print(my_list[2])
+my_list.append("April")
+print(my_list)
+print(my_list[3])
+```
+
+* append() is a function which is used to add a new item to a list.
