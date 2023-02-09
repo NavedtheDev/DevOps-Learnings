@@ -41,7 +41,7 @@ while user_input != "exit":
 
 
 * Lists is a datatype to store multiple items in a single variable.
-* split() is a function that returns the lists of any input value.
+* split( ) is a function that returns the lists of any input value.
 * Here is an example.
 
 ```
@@ -89,4 +89,4 @@ print(my_list)
 print(my_list[3])
 ```
 
-* append() is a function which is used to add a new item to a list.
+* append( ) is a function which is used to add a new item to a list.
