@@ -35,3 +35,7 @@ while user_input != "exit":
     user_input = input("Hey, enter a value\n")
     validate_and_execute()
 ```
+
+
+
+* Lists is a datatype to store multiple items in a single variable.
