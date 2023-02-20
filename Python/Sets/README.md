@@ -9,4 +9,4 @@
 my_set = {"January", "February", "March"}
 
 ```
-* Howeevr, we cannot access elements of a set like we did on lists.
+* Howeevr, we cannot access elements of a set like we did on lists. Items in a set set do not have a defined order.
