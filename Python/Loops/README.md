@@ -84,7 +84,7 @@ while user_input != "exit":
 ```
 my_list = ["January", "February", "March"]
 print(my_list[2])
-my_list.append("April")        // to add an element to a list
+my_list.append("April")         // to add an element to a list
 print(my_list)
 print(my_list[3])
 my_list.remove("January")      // to delete an element from a list
