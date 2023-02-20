@@ -78,7 +78,7 @@ while user_input != "exit":
 
 
 
-* You must be wondering on how to create lists within our proram.
+* You must be wondering on how to create lists within our program.
 * Here is an example.
 
 ```
