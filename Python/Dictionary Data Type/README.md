@@ -15,7 +15,7 @@ days_and_unit_dictionary = {"days": 20, "unit": "hours"}
 ```
 days_and_unit_dictionary["days"]
 
-          <b>OR</b>
-          
+          OR
+                   
 days_and_unit_dictionary.get("days")
 ```
