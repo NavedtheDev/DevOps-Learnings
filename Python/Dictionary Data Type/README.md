@@ -2,7 +2,7 @@
 * It does not allow duplicate values.
 * Example,
 ```
-{"days": 20, "unit": "hours"}
+days_and_unit_dictionary = {"days": 20, "unit": "hours"}
 ```
 
 
@@ -11,3 +11,7 @@
 
 * Items can be accessed by its <b>key name</b>.
 * You can use <b>square brackets</b> or <b>get()</b> method.
+* Example,
+```
+days_and_unit_dictionary["days"]
+```
