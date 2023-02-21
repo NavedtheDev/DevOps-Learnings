@@ -4,3 +4,10 @@
 ```
 {"days": 20, "unit": "hours"}
 ```
+
+
+
+### Accesing items ina dictionary ###
+
+* Items can be accessed by its <b>key name</b>.
+* You can use <b>square brackets</b> or <b>get()</b> method.
