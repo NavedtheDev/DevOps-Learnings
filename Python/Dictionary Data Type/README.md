@@ -14,4 +14,8 @@ days_and_unit_dictionary = {"days": 20, "unit": "hours"}
 * Example,
 ```
 days_and_unit_dictionary["days"]
+
+          <b>OR</b>
+          
+days_and_unit_dictionary.get("days")
 ```
