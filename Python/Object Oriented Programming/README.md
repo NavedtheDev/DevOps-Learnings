@@ -20,3 +20,5 @@ class User:
     def change_job_title(self, new_jt):
         self.current_job_title = new_jt
 ```
+
+* <b>self</b> parameter is a reference to the current instance of the class. It is used to access variables that belong to that class.
