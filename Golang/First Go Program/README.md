@@ -23,4 +23,4 @@ Hello World!
 * After this, we see a function declaration. you can consider them as the building blocks of a Go program. It is the entry point of the executable programs. Whenever we run a Go program, Go will automatically call the main function. 
 
 
-* Then we have the curly braces surrounding
+* Then we have the curly braces surrounding the line fmt.println("Hello World!"). These curly braces denote the starting and the ending of the function. 
