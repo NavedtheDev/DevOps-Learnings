@@ -8,8 +8,10 @@ func main() {
 }
 ```
 
-* Output is 
+* Output is, 
 
 ```
 Hello World!
 ```
+
+* Packages are Go's way of organizing and reusing code. Every Go program must start with the package declaration.
