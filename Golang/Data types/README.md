@@ -5,3 +5,11 @@
           1. categorize a set of related values <br>
           2. describe the operations that can be done on them <br>
           3. define the way the data is stored <br>
+
+
+* Different data types are dicussed below.
+
+
+# Integers #
+
+* 
