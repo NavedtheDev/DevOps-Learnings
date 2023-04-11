@@ -12,4 +12,4 @@
 
 # Integers #
 
-* 
+* Integers can be defined in Golang using many keywords, but the most used is simply int. Int over here refers to signed integers, which means both positive and negative numbers. Example could be -90, 0, 27, etc.
