@@ -35,3 +35,11 @@ Output will be,
 ```
 
 ### Method 2 ###
+
+```
+x := 100
+```
+
+* In this the compiler will implicitily assign the data type to the variable.
+
+
