@@ -15,3 +15,8 @@
 ```
 
 * Inner blocks can access variables that are declared within outer blocks but outer blocks cannot access variables that are declared within inner blocks. 
+
+
+
+* Now we've understood how variable scope works in terms of blocks. However, scope rules can also be determined based on where the variables are declared. We have two kinds of such variables, local and global variables. 
+* Talking about local variables, there are variables that are declared inside a function or a block. These are not accessible outside the functional block and these variables can also be declared inside looping or conditional statements. 
