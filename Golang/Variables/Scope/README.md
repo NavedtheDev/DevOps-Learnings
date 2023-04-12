@@ -19,4 +19,7 @@
 
 
 * Now we've understood how variable scope works in terms of blocks. However, scope rules can also be determined based on where the variables are declared. We have two kinds of such variables, local and global variables. 
+
 * Talking about local variables, there are variables that are declared inside a function or a block. These are not accessible outside the functional block and these variables can also be declared inside looping or conditional statements. 
+
+* Global variables are variables that are declared outside of a functional block. They are available throughout the lifetime of a program. They're declared at the top of the program outside all functional blocks and well, they can be accessed from any part of the program. 
