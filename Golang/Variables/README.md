@@ -19,3 +19,19 @@ var x int = 100
 var b bool = true
 var f float64 = 78.32
 ```
+
+* Let's see a simple program.
+```
+package main
+import "fmt"
+
+func main(){
+     var i int = 100
+     fmt.Println(i)
+```
+Output will be,
+```
+100
+```
+
+
