@@ -1,7 +1,8 @@
 ## Declaring Variables ##
 
 * Variables in Golang can be declared using various syntax.
-* One of them is,
+
+### Method 1 ###
 
 ```
 var <variable_name> <data_type> = <value>
@@ -33,3 +34,4 @@ Output will be,
 100
 ```
 
+### Method 2 ###
