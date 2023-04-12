@@ -7,8 +7,9 @@ import "fmt"
 func main(){
     fmt.Print("Hey Everyone")
 }
-
+```
 Output,
+```
 Hey Everyone
 ```
 
@@ -22,8 +23,9 @@ func main(){
     var sport string = "Cricket"
     fmt.Println(sport)
 }
-
+```
 Output,
+```
 Cricket
 ```
 
@@ -38,7 +40,8 @@ func main(){
     var player string = "Alex"
     fmt.Println(player, "is playing", sport)
 }
-
+```
 Output is, 
+```
 Alex is playing Cricket
 ```
