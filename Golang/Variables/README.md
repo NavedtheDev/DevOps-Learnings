@@ -17,5 +17,5 @@ var <variable_name> <data_type> = <value>
 var s string = "Hello World"
 var x int = 100
 var b bool = true
-var f float = 78.32
+var f float64 = 78.32
 ```
