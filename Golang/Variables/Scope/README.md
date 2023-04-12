@@ -13,3 +13,5 @@
 
 }
 ```
+
+* Inner blocks can access variables that are declared within outer blocks but outer blocks cannot access variables that are declared within inner blocks. 
