@@ -22,4 +22,28 @@
 
 * Talking about local variables, there are variables that are declared inside a function or a block. These are not accessible outside the functional block and these variables can also be declared inside looping or conditional statements. 
 
+```
+package main
+import "fmt"
+
+func main(){
+     name := "Alex"
+     fmt.Println(name)
+}
+```
+* Here, name is a local variable.
+
 * Global variables are variables that are declared outside of a functional block. They are available throughout the lifetime of a program. They're declared at the top of the program outside all functional blocks and well, they can be accessed from any part of the program. 
+
+```
+package main
+import "fmt"
+
+var name string = "Alex"
+
+func main(){
+     fmt.Println(name)
+}
+```
+* Here, name is a global variable.
+
