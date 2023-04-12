@@ -45,3 +45,7 @@ Output is,
 ```
 Alex is playing Cricket
 ```
+Note: Here, Println will print the output and cursor will move to next line.
+
+
+
