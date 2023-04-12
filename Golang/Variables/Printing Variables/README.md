@@ -27,3 +27,18 @@ Output,
 Cricket
 ```
 
+## Printing string and variable together ##
+
+```
+package main
+import "fmt"
+
+func main(){
+    var sport string = "Cricket"
+    var player string = "Alex"
+    fmt.Println(player, "is playing", sport)
+}
+
+Output is, 
+Alex is playing Cricket
+```
