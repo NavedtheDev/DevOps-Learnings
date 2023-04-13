@@ -51,3 +51,27 @@ My name is  Naved and my age is greater than 18: true
 
 * NOTE : Scanf function reads from the input source sequentially. Hence, we must give the list of arguments in the order that's specified in the format string. 
 
+<br>
+
+* The fmt scanner function returns two values, count, which is the number of arguments that the function writes successfully, and the error, which is any error that's thrown during the execution of the Scanf function. 
+* Let us understand this with an example.
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	var a string
+	var b int
+
+	fmt.Print("Enter a string and a number: ")
+
+	count, err := fmt.Scanf("%s %d", &a, &b)
+
+	fmt.Println("count: ", count)
+	fmt.Println("error: ", err)
+	fmt.Println("a: ", a)
+	fmt.Println("b: ", b)
+}
+```
