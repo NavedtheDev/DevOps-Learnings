@@ -23,6 +23,6 @@ Enter your name: Naved
 Hey,  Naved
 ```
 
-
+<br>
 
 * Let us see how we can take multiple inputs using Scanf.
