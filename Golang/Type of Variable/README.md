@@ -23,3 +23,31 @@ func main() {
 ```
 a is string and b is int
 ```
+
+<br>
+
+* Now the TypeOf function can be used, not just for finding out the data type of the variable but also for finding the type of simply a value or literal as we say. 
+
+```
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+func main() {
+	var a string = "Hey all"
+	var b int = 50
+
+	fmt.Printf("a = %v is of type %v \n", a, reflect.TypeOf(a))
+	fmt.Printf("b = %v is of type %v \n", b, reflect.TypeOf(b))
+}
+```
+
+* Output will be, 
+
+```
+a = Hey all is of type string 
+b = 50 is of type int
+```
