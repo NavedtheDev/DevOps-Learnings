@@ -41,3 +41,12 @@ func main() {
 	fmt.Println("My name is ", name, "and my age is greater than 18: ", is_age)
 }
 ```
+<br>
+* Output will look like,
+
+```
+Enter your name and is your age greater than 18: Naved true
+My name is  Naved and my age is greater than 18: true
+```
+
+
