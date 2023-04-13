@@ -1,6 +1,7 @@
-
-* Scanf function is used to take user input. Here is an example.
-
+* One of the most used ways of taking user input is through Scanf function, which is provided by the fmt package. Scanf function takes the format string, along with the list of variable number of arguments. 
+* This string contains custom specifiers that the Scanf function uses to format the final output string. 
+* Here is an example. 
+ 
 ```
 package main
 import "fmt"
