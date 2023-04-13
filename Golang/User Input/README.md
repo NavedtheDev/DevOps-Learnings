@@ -13,3 +13,7 @@ func main() {
 }
 ```
 * Here %s is a string format specifier.
+
+
+
+* Let us see how we can take multiple inputs using Scanf.
