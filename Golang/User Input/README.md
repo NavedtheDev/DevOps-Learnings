@@ -1,3 +1,6 @@
+
+* Scanf function is used to take user input. Here is an example.
+
 ```
 package main
 import "fmt"
@@ -9,3 +12,4 @@ func main() {
 	fmt.Println("Hey, ", name)
 }
 ```
+* Here %s is a string format specifier.
