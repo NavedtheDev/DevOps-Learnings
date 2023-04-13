@@ -49,4 +49,5 @@ Enter your name and is your age greater than 18: Naved true
 My name is  Naved and my age is greater than 18: true
 ```
 
+* NOTE: Scanf function reads from the input source sequentially. Hence, we must give the list of arguments in the order that's specified in the format string. 
 
