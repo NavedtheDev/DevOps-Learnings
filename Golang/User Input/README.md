@@ -25,4 +25,19 @@ Hey,  Naved
 
 <br>
 
-* Let us see how we can take multiple inputs using Scanf.
+* Let us see how we can take multiple inputs using Scanf. Here is an example.
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	var name string
+	var is_age bool
+
+	fmt.Print("Enter your name and is your age greater than 18: ")
+	fmt.Scanf("%s %t", &name, &is_age)
+	fmt.Println("My name is ", name, "and my age is greater than 18: ", is_age)
+}
+```
