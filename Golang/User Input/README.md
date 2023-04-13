@@ -75,3 +75,15 @@ func main() {
 	fmt.Println("b: ", b)
 }
 ```
+<br>
+* Output will look like this,
+
+```
+Enter a string and a number: Naved 5
+count:  2
+error:  <nil>
+a:  Naved
+b:  5
+```
+
+* Here we just entered a string and an integer. So the program ran successfully with no errors. But now consider this output,
