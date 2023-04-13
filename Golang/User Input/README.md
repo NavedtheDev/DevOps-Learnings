@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("Hey, ", name)
 }
 ```
-* Here %s is a string format specifier.
+* Here %s is a format specifier for string.
 
 
 
