@@ -88,3 +88,18 @@ b:  5
 ```
 
 * Here we just entered a string and an integer. So the program ran successfully with no errors. But now consider this output,
+
+```
+Enter a string and a number: Naved Ahmad
+count:  1
+error:  expected integer
+a:  Naved
+b:  0
+```
+
+* Instead of passing a string and an integer, we passed a string and then again a string. It was expecting a string and a number, but we passed two strings instead. 
+* So count is one because we stored input successfully in just one argument, and that is variable A. 
+* As you can see, error is expected integer, since we were expecting an integer, but it got a string instead so it gave us an error. 
+
+
+
