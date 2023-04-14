@@ -22,3 +22,31 @@ func main() {
 90.00
 ```
 
+
+
+* Let us learn about the string conversion package. This package consists of methods that we can use to convert integer to string and vice versa. 
+* The first method is called Itoa(). It converts integer to string and it just returns one value, which is the string formed with a given integer. Let's see an example.
+
+```
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var i int = 58
+	var s string = strconv.Itoa(i)
+	fmt.Printf("%q", s)
+
+}
+```
+
+* Output will be, 
+
+```
+"58"
+```
+
+
