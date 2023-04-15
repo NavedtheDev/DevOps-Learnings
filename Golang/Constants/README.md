@@ -24,3 +24,23 @@ const name string = "Naved Ahmad"
 const age = 21
 ```
 
+* <b>NOTE :</b> The short hand variable declaration does not work for constants.
+
+```package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	const name := "Naved Ahmad"
+	fmt.Printf("%v: %T", name, name)
+}
+```
+
+* The compiler will give you the following error,
+
+```
+syntax error: unexpected :=, expected =
+```
