@@ -49,4 +49,30 @@ func main() {
 "58"
 ```
 
+* The next method is Atoi(), which converts string to integer, and it returns two values, the corresponding integer and if there's any error. 
+
+```
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+func main() {
+	var s string = "200"
+	i, err := strconv.Atoi(s)
+
+	fmt.Printf("%v, %T \n", i, i)
+	fmt.Printf("%v, %T", err, err)
+
+}
+```
+
+* Output will be,
+
+```
+200, int 
+<nil>, <nil>
+```
 
