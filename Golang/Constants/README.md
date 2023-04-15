@@ -16,3 +16,11 @@ const <const_name> <data_type> = <value>
 const age = 12
 const s_name, s_age = "Naved", 21
 ```
+
+* Types constants, these are constants where you explicitly specify the data type in the declaration. Example,
+
+```
+const name string = "Naved Ahmad"
+const age = 21
+```
+
