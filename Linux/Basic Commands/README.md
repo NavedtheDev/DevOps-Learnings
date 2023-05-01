@@ -35,7 +35,7 @@ The first argument is the directory, which has to be renamed, and the second arg
 cp Cricket/rules.txt Football
 ```
 
-
+* rm -> used to remove or delete files and directories. 
 
 
 
