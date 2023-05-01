@@ -53,3 +53,27 @@ Use ctrl + d to save and exit.
 
 * touch -> to create a file.
 
+* more -> you can view text files in a scrollable manner. It loads the entire file at once. 
+
+* less -> allows you to view the contents of a file and navigate through the file. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
