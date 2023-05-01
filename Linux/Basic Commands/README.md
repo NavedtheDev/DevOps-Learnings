@@ -20,3 +20,4 @@ This will move the directory from football to Cricket. Notice that we have used 
 ```
 mv football/stumps cricket/
 ```
+Here make sure that you are in the /home/naved directory
