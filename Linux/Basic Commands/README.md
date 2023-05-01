@@ -2,4 +2,4 @@
 
 * ls -> to see the contents of a directory.
 
-* mkdir <arguement> -> to craete a new directory. 
+* mkdir -> to craete a new directory. 
