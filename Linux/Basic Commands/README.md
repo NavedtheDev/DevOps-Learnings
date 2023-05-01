@@ -57,7 +57,19 @@ Use ctrl + d to save and exit.
 
 * less -> allows you to view the contents of a file and navigate through the file. 
 
+* what is < > -> displays a one-line description of what a command does. 
 
+* man -> provide information about the command in detail.
+
+<b>NOTE :</b> --help flag provide users with the options and use cases available in a command. 
+
+* apropos -> will search through the man page names and descriptions for instances of a keyword. This is useful if you want to look up all commands within the system that contains a specific keyword. Example,
+
+```
+[~]$ apropos modpr
+modprobe (8)         - Add and remove modules from the Linux Kernel
+modprobe.d (5)       - Configuration directory for modprobe
+```
 
 
 
