@@ -14,3 +14,9 @@
 * Let's see how bitwise AND is going to work for 12 and 25. 
 
  ![Screenshot (131)](https://user-images.githubusercontent.com/98219227/235496446-2dd03db0-2582-46ba-bc51-f78b2ffa1d97.png)
+
+
+
+## bitwise OR (|) ##
+
+* Bitwise OR takes two numbers as operand and does OR on every bit of two numbers. 
