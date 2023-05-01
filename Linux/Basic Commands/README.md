@@ -51,5 +51,5 @@ Hey everyone
 ```
 Use ctrl + d to save and exit.
 
-
+* touch -> to create a file.
 
