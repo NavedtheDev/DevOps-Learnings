@@ -41,4 +41,15 @@ cp Cricket/rules.txt Football
 rm Sports/Cricket/Extras.txt
 ```
 
+* cat -> to see the contents of a file.
+
+* We can also use cat command to add data to a file, by, 
+
+```
+cat > example.txt
+Hey everyone
+```
+
+
+
 
