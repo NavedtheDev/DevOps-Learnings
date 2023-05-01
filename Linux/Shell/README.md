@@ -27,3 +27,4 @@ echo is a shell builtin
 <command> <arguement> <option>
 ```
 
+* We can also give more than one arguement.
