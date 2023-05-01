@@ -49,7 +49,7 @@ rm Sports/Cricket/Extras.txt
 cat > example.txt
 Hey everyone
 ```
-
+Use ctrl + d to save and exit.
 
 
 
