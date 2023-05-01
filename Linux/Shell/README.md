@@ -3,3 +3,6 @@
 * /home is a system created directory that contains the home directories for almost all users in the Linux system. 
 * Why do we need a home directory? The home directory allows users to store their personal data in the form of files and directories. Each user in the system gets their own unique home directory with complete access to it, to be able to save, retrieve, or delete data. 
 * Another thing to note is the representation of the home directory. It is represented by the tilde symbol ( ~ ) in the command line. 
+* To interact with the Linux system using the shell, a user has to type in commands. When a command is run, it executes a program to achieve a specific task. 
+* An arguement acts as an input to a command. 
+* A command can also have options that modify its behavior in some predetermined way. This option, also sometimes referred to as a switch or a flag, is usually a single letter preceded by a single hyphen.
