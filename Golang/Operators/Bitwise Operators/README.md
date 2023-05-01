@@ -20,3 +20,25 @@
 ## bitwise OR (|) ##
 
 * Bitwise OR takes two numbers as operand and does OR on every bit of two numbers. 
+
+
+
+## bitwise XOR (^) ##
+
+* It takes two numbers as operand and does XOR on every bit of two numbers. The result of XOR is 1 if the two bits are opposite. 
+
+
+
+## left shift (<<) ##
+
+* It shifts all bits towards left by a certain number of specified bits. 
+
+
+
+## right shift (>>) ##
+
+* It shifts all bits towards right by a certain number of specified bits. 
+
+
+
+
