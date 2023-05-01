@@ -28,3 +28,15 @@ Here make sure that you are in the /home/naved directory.
 mv Asia/India/Lucnow Asia/India/Lucknow
 ```
 The first argument is the directory, which has to be renamed, and the second argument is the relative path to the correct directory name. 
+
+* cp -> allows you to create a copy of a file or directory and place it in a specified location. This command also expects two arguments. The first argument is the source file or directory. The second argument is the destination. Example,
+
+```
+cp Cricket/rules.txt Football
+```
+
+
+
+
+
+
