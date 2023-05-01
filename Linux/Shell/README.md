@@ -6,3 +6,17 @@
 * To interact with the Linux system using the shell, a user has to type in commands. When a command is run, it executes a program to achieve a specific task. 
 * An arguement acts as an input to a command. 
 * A command can also have options that modify its behavior in some predetermined way. This option, also sometimes referred to as a switch or a flag, is usually a single letter preceded by a single hyphen.
+* Commands in Linux can be generally categorized into two types, internal, or built-in, commands and external commands. 
+* Internal commands are part of the shell itself and come bundled with it. 
+* External commands, on the other hand, are binary programs or scripts which are usually located in distinct files in the system. They either come pre-installed with the distribution's package manager or can be created or installed by the user. 
+* To determine if a command is internal or external, use the "type" command. For example,
+
+```
+type cd
+```
+
+* Output will be, 
+
+```
+echo is a shell builtin
+```
