@@ -20,4 +20,10 @@ This will move the directory from football to Cricket. Notice that we have used 
 ```
 mv football/stumps cricket/
 ```
-Here make sure that you are in the /home/naved directory
+Here make sure that you are in the /home/naved directory.
+
+* We can also use mv command to rename a file. We can do this by running the same mv command as before. Example,
+
+```
+mv Asia/India/Munbai Asia/India/Mumbai
+```
