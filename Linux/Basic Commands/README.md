@@ -15,4 +15,8 @@
 ```
 mv /home/naved/football/stumps /home/naved/cricket/
 ```
-This will move the directory from football to Cricket.
+This will move the directory from football to Cricket. Notice that we have used absolute path. We can also use the relative path to achieve this, by, 
+
+```
+mv football/stumps cricket/
+```
