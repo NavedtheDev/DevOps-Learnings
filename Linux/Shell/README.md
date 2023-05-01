@@ -20,3 +20,10 @@ type cd
 ```
 echo is a shell builtin
 ```
+
+* NOTE: There are three parts in a Linux sentence
+
+```
+<command> <arguement> <option>
+```
+
