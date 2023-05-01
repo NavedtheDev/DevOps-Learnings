@@ -25,5 +25,6 @@ Here make sure that you are in the /home/naved directory.
 * We can also use mv command to rename a file. We can do this by running the same mv command as before. Example,
 
 ```
-mv Asia/India/Munbai Asia/India/Mumbai
+mv Asia/India/Lucnow Asia/India/Lucknow
 ```
+The first argument is the directory, which has to be renamed, and the second argument is the relative path to the correct directory name. 
