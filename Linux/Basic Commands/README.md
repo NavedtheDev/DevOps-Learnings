@@ -37,6 +37,8 @@ cp Cricket/rules.txt Football
 
 * rm -> used to remove or delete files and directories. 
 
-
+```
+rm Sports/Cricket/Extras.txt
+```
 
 
