@@ -24,3 +24,28 @@ uname -r
 OR 
 uname -a
 ```
+
+* One of the important functions of the Linux Kernel is memory management. Memory is divided into two areas known as Kernel space and userspace. These are synonymous to the terms Kernel and user mode. 
+
+* Kernel space is the portion of memory in which the Kernel executes and provides its services. A process running in the Kernel space has unrestricted access to the hardware. As such, it is strictly reserved for running the Kernel code, Kernel extensions, and most device drivers. 
+
+* On the other hand, all processes running outside the Kernel reside in the user space which has restricted access to CPU and memory. 
+
+* Most Unix-like operating systems, including Linux, come prepackaged with all kinds of utilities programming languages, and graphical tools. These are called user-space applications. This is also often referred to as the Userland. 
+
+* Let us now look at how programs running in the user space work. All user programs function by manipulating data, but where does this data live? Most commonly, it is stored in memory and on disk. User programs get access to data by making special requests to the Kernel called <b>system calls</b>. Examples include allocating memory by using variables or opening a file. For example, opening a file such as the /etc/os-release file to see the version of the operating system installed results in a system call.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
