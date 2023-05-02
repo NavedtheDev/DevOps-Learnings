@@ -20,3 +20,21 @@
    4. Socket: A socket is a special file that enables the communication between two processes. 
    5. Named Pipes: This is a special type of file that allows connecting one process as an input to another. The data flow in a pipe is unidirectional from the first process to the second. 
  
+
+
+
+
+* Let us now see how to identify the different file types in Linux. 
+
+-> One way to do this is by making use of the file command like this,
+
+```
+ $ file /home/naved-ahmad
+/home/naved-ahmad: directory
+```
+
+
+
+
+
+
