@@ -33,7 +33,7 @@ uname -a
 
 * Most Unix-like operating systems, including Linux, come prepackaged with all kinds of utilities programming languages, and graphical tools. These are called user-space applications. This is also often referred to as the Userland. 
 
-* Let us now look at how programs running in the user space work. All user programs function by manipulating data, but where does this data live? Most commonly, it is stored in memory and on disk. User programs get access to data by making special requests to the Kernel called <b>system calls</b>. Examples include allocating memory by using variables or opening a file. For example, opening a file such as the /etc/os-release file to see the version of the operating system installed results in a system call.  
+* Let us now look at how programs running in the user space work. All user programs function by manipulating data, but where does this data live? Most commonly, it is stored in memory and on disk. User programs get access to data by making special requests to the Kernel called <b>system calls</b>. Examples include allocating memory by using variables or opening a file. For example, opening a file such as the /etc/os-release file to see the version of the operating system installed results in a system call. 
 
 
 
