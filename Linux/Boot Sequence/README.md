@@ -11,4 +11,4 @@
 
 3. The kernel is then loaded into the memory and starts executing. During this phase, the kernel carries out tasks such as initializing hardware and memory management tasks among other things. Once it is completely operational, the kernel looks for an init process to run, which sets up the user space and the processes needed for the user environment. 
 
-4. In most of the current day Linux distributions, the init function then calls the systemd daemon. The systemd is responsible for bringing the Linux host to a usable state. Systemd is responsible for mounting file systems, starting and managing system services. Systemd is the universal standard these days 
+4. In most of the current day Linux distributions, the init function then calls the systemd daemon. The systemd is responsible for bringing the Linux host to a usable state. Systemd is responsible for mounting file systems, starting and managing system services. Systemd is the universal standard these days.
