@@ -55,6 +55,12 @@ Use ctrl + d to save and exit.
 
 * env -> to see a list of all environment variables.
 
+* To set an environment variable, we can use the export command. Example,
+
+```
+export OFFICE = Microsoft
+```
+
 * more -> you can view text files in a scrollable manner. It loads the entire file at once. 
 
 * less -> allows you to view the contents of a file and navigate through the file. 
