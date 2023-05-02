@@ -16,3 +16,11 @@
 ```
 uname
 ```
+
+* Use the dash r or dash  flag to print the Kernel version. 
+
+```
+uname -r 
+OR 
+uname -a
+```
