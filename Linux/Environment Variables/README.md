@@ -6,7 +6,7 @@
 env
 ```
 
-* To set an environment variable, we can use the export command. Say you want to create a new environment variable called office and set a value of caleston to it. Use     the export command and in the argument, use office = caleston. This will set the variable for the current shell and any other processes or programs started by the     shell. 
+* To set an environment variable, we can use the export command. Say you want to create a new environment variable called office and set a value of caleston to it, use     the export command and in the argument, use office = caleston. This will set the variable for the current shell and any other processes or programs started by the     shell. 
 
 ## PATH variable ## 
 
