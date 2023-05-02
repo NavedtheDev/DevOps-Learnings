@@ -28,3 +28,43 @@ echo is a shell builtin
 ```
 
 * We can also give more than one arguement.
+
+
+
+## Types of Shell ## 
+
+* There are several different shells in Linux.
+
+   1. Bourne shell 
+   2. C shell 
+   3. Korn shell 
+   4. Z shell 
+   5. Bourne-again shell (bash)
+   
+* To check the shell being used use the command
+
+```
+echo $SHELL 
+```
+
+* Bash is perhaps the most popular shell, specifically because of its features such as Bash completions or brace expansion.
+* To change the default shell, use the command 
+
+```
+chsh
+```
+
+* Let us now take a quick look at the features of the Bash shell. 
+
+   1. Bash supports command auto-completion. Bash will attempt to auto-complete commands for you if you type a part of it and press the tab key. This feature can extend to completing a file or a directory name, commands, its arguments and options. 
+   2. In Bash, we can set custom aliases for the actual commands. 
+
+
+
+
+
+
+
+
+
+
