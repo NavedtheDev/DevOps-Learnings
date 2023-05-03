@@ -38,6 +38,16 @@
 
 
 
+## YUM ##
+
+* YUM stands for Yellowdog Updater Modified, and it is a free and open-source package manager that works on RPM-based Linux systems. 
+* YUM works with software repositories, which are essentially a collection of packages, and provides package and dependency management on RPM-based distros. 
+* The repository information is stored in the /etc/yum.repos.d, and the repository files have a .repo extension. 
+* YUM acts as a high-level package manager, but under the hood, it still depends on RPM to manage packages on the Linux system. 
+* Unlike RPM, YUM handles package dependencies very well, it's able to install any dependent packages to get the base package installed on the Linux system. 
+
+
+
 
 
 
