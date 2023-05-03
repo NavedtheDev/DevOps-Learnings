@@ -48,4 +48,47 @@ func main() {
 Exactly
 ```
 
+* We also have a very special keyword for a switch-case statement and that is called the fall-through keyword. The fall-through keyword is used in switch-case to force the execution flow to fall through the successive case block. Example, 
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var i int = 10
+	switch i {
+	case 5:
+		fmt.Println("i is 10")
+	case 10:
+		fmt.Println("Exactly")
+		fallthrough
+	case 50:
+		fmt.Println("i is 50")
+		fallthrough
+	default:
+		fmt.Println("neither 10 nor 100")
+
+	}
+}
+```
+
+* Output, 
+
+```
+Exactly
+i is 50
+neither 10 nor 100
+```
+
+
+
+
+
+
+
+
+
 
