@@ -65,6 +65,8 @@ export OFFICE = Microsoft
 
 * less -> allows you to view the contents of a file and navigate through the file. 
 
+* du with the option -sk shows the size of a file or a directory in kilobytes.
+
 * what is < > -> displays a one-line description of what a command does. 
 
 * man -> provide information about the command in detail.
