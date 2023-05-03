@@ -19,3 +19,36 @@
    4. RPM, the base package manager found in Red Hat-based distributions such as Red Hat Enterprise Linux, CentOS, and Fedora. 
    5. YUM, a front-end for the RPM system found in Red Hat-based distributions. 
    6. DNF, a more feature-rich front-end for the RPM system. 
+
+
+
+## RPM ##
+
+* It stands for Red Hat Package Manager. This package manager is used in Red Hat Enterprise Linux, as well as other Linux distributions, such as CentOS and many versions of Fedora.
+* The file extension for packages managed by RPM is .rpm. 
+* Let's see how to work with RPM using the Linux command line. RPM has five basic modes of operation: 
+
+   1. installing
+   2. uninstalling
+   3. upgrade 
+   4. query 
+   5. verifying
+
+* Each of these modes can be run using the RPM command followed by specific command options. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
