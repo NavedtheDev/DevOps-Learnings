@@ -2,7 +2,7 @@
 
 
 
-## if statement ##
+# if-else and else if statement #
 
 * How does if works? The if statement is provided with a condition. The if statement evaluates this condition, and if this condition is true, statements inside the body of if are executed. If the condition is false, the statements inside the body of if are not executed. 
 
@@ -31,3 +31,74 @@ func main() {
 	}
 }
 ```
+
+* Output will be,
+
+```
+Fine
+```
+
+* The if statement may also have an optional else block that runs when the if condition is not met. 
+
+```
+if (condition) {
+    // executes when condition is true 
+} else {
+    // executes when condition is false 
+}
+```
+
+<b>NOTE</b>: for the syntax in if-else block, the else statement should start from the same line where the if ends. Else, it will throw us an error. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
