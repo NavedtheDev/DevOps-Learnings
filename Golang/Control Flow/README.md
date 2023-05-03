@@ -79,7 +79,26 @@ Wrong
 
 ### else if statement ###
 
+* Example,
 
+```
+ackage main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var a int = 100
+	if a == 10 {
+		fmt.Println("Very far")
+	} else if a == 50 {
+		fmt.Println("Close")
+	} else {
+		fmt.Println("Wrong")
+	}
+}
+```
 
 
 
