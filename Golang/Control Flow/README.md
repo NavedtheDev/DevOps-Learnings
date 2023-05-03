@@ -48,6 +48,31 @@ if (condition) {
 }
 ```
 
+* Example,
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var a int = 100
+	if a == 10 {
+		fmt.Println("Fine")
+	} else {
+		fmt.Println("Wrong")
+	}
+}
+```
+
+* Output,
+
+```
+Wrong
+```
+
 <b>NOTE</b>: for the syntax in if-else block, the else statement should start from the same line where the if ends. Else, it will throw us an error. 
 
 
