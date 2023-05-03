@@ -88,10 +88,30 @@ neither 10 nor 100
 * Instead of using a single value, we can even use conditional statements for switch. In this case, we do not need to mention an expression after switch. We can simply write our conditions inside the case blocks itself. Example, 
 
 ```
+package main
 
+import (
+	"fmt"
+)
+
+func main() {
+	var a, b int = 10, 20
+	switch {
+	case a+b == 30:
+		fmt.Println("equal to 30")
+	case a+b <= 30:
+		fmt.Println("less than or equal to 30")
+	default:
+		fmt.Println("greater tham 30")
+	}
+}
 ```
 
+* Output, 
 
+```
+equal to 30
+```
 
 
 
