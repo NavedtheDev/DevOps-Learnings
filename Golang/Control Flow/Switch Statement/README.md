@@ -83,7 +83,13 @@ i is 50
 neither 10 nor 100
 ```
 
+<b>NOTE</b>: Go uses an implicit break statement for each case.
 
+* Instead of using a single value, we can even use conditional statements for switch. In this case, we do not need to mention an expression after switch. We can simply write our conditions inside the case blocks itself. Example, 
+
+```
+
+```
 
 
 
