@@ -41,13 +41,50 @@
 ## YUM ##
 
 * YUM stands for Yellowdog Updater Modified, and it is a free and open-source package manager that works on RPM-based Linux systems. 
+
 * YUM works with software repositories, which are essentially a collection of packages, and provides package and dependency management on RPM-based distros. 
+
 * The repository information is stored in the /etc/yum.repos.d, and the repository files have a .repo extension. 
+
 * YUM acts as a high-level package manager, but under the hood, it still depends on RPM to manage packages on the Linux system. 
+
 * Unlike RPM, YUM handles package dependencies very well, it's able to install any dependent packages to get the base package installed on the Linux system. 
 
 
 
+## DPKG ##
+
+* dpkg stands for the Debian package manager and similar to rpm, it is a low-level package manager. Similar to rpm, dpkg can be used to install, remove, upgrade, list, and verify a package. The package extension is .deb. 
+
+* To install or update an existing package, use the dpkg-i <package_name>. 
+
+* To uninstall, use the -r flag. 
+
+* To list packages installed in the system along with the version number in a short description, use the -l flag. 
+
+* Use the -s option to check the status of the package if it is installed in the system. 
+
+* Finally, use the -p flag to display details about packages such as version number, maintainer, et cetera. 
+
+* Similar to rpm, dpkg does not honor the dependencies when it comes to package management. An install may fail due to dependencies issues. This is the reason why we use higher-level Debian package managers such as apt and apt-get. Instead of of relying on dpkg, you can install software along with its dependencies using apt or apt-get. Although it sounds similar, apt and apt-get do not depend on each other. apt stands for advanced package managers is more user friendly and overall a better tool compared to apt-get. 
+
+
+
+## APT ##
+
+* apt acts as a front end package manager that relies on the dpkg utility, quite similar to the relation between yum and rpm that we saw earlier. 
+
+* Similar to yum, apt relies on a software repository that contains packages that would eventually be installed on the system. The software repository for apt is defined in the /etc/apt/sources.list file. The source can be a local one such as a directory on the file system or a CD-ROM, or it can be at a remote location that is accessed via HTTP, HTTPS, or FTP transfer protocols. 
+
+* Let us now see some of the common apt commands. 
+
+   1. Run the apt update command to refresh the repository. This command is used to download package information from all available sources. A good time to run this would be immediately after installing the OS or after adding new sources. 
+   2. The apt upgrade command can be used to install available upgrades of all packages currently installed on the system from the sources configured. 
+   3. You can also update the repositories using the apt edit sources command. This opens up the /etc/apt/sources.list file in the text editor of your choice such as vim or nano. Another way to add more repositories, update the sources.list file directly using a text editor such as the VI-editor. Once the repositories have been set up, you can make use of it to run apt commands. 
+   4. To install a package, run the apt install command. 
+   5. Run the apt remove command to remove the package. 
+   6. The apt search command can be used to look for a package in the repository. 
+   7. You can also list all the available packages using the apt list command. 
 
 
 
