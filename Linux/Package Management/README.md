@@ -88,7 +88,9 @@
 
 
 
+## APT vs APT-GET ##
 
+* APT is a more user friendly tool compared to APT-GET. In all the latest Debian-based distros, APT is already installed by default.
 
 
 
