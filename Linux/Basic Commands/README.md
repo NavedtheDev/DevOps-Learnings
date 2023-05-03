@@ -65,7 +65,7 @@ export OFFICE = Microsoft
 
 * less -> allows you to view the contents of a file and navigate through the file. 
 
-* du with the option -sk shows the size of a file or a directory in kilobytes.
+* du with the option -sk shows the size of a file or a directory in kilobytes. A better version of this command, du -sh prints the size in a human-readable format. 
 
 * what is < > -> displays a one-line description of what a command does. 
 
