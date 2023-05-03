@@ -5,4 +5,17 @@
 * Some of the essential functions of a package manager are:
 
    1. Ensuring the integrity and authenticity of the package by verifying their digital certificates and checksums. This is to ensure that the package is downloaded from  a trusted source and safe to install. 
-   2. Simplifying the entire package management process, most package managers provide powerful querying options, making it easier to look up packages and then downloading, installing, or updating existing software 
+   2. Simplifying the entire package management process, most package managers provide powerful querying options, making it easier to look up packages and then downloading, installing, or updating existing software.
+   3. Grouping packages by function to reduce user confusion. 
+   4. Managing dependencies to ensure a package is installed with all packages it requires, thus avoiding what is commonly known as dependency hell.
+
+
+
+* Depending upon the distribution, a Linux system supports several different types of package managers. Some of the common ones are:
+
+   1. dpkg, the base package manager for Debian-based distributions
+   2. apt, a newer front end for the dpkg system found in Debian-based distributions such as Ubuntu, Linux Mint, and Elementary OS. 
+   3. Apt-get is the traditional front-end for the dpkg system found in Debian-based distributions. 
+   4. RPM, the base package manager found in Red Hat-based distributions such as Red Hat Enterprise Linux, CentOS, and Fedora. 
+   5. YUM, a front-end for the RPM system found in Red Hat-based distributions. 
+   6. DNF, a more feature-rich front-end for the RPM system. 
