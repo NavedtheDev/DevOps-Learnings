@@ -25,3 +25,30 @@ Example,
 var sports [5] string
 ```
 
+* Let's see how we can initialize an array now. 
+
+```
+var nums [3] int = [3]int{1,2,3} 
+
+OR 
+
+grades := [3]int{1,2,3}
+
+OR 
+
+grades := [...]int{1,2,3}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
