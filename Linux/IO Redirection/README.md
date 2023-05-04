@@ -29,8 +29,16 @@ cat shell.txt
 Bash shell
 ```
 
+* In order to redirect just the error messages, we need to use the number 2 followed by a forward arrow symbol, and then the name of the file in which the errors will be written. Example,
 
+```
+cat missing_file 2> error.txt
+```
 
+```
+cat error.txt
+cat: missing_file: No such file or directory
+```
 
 
 
