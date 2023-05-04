@@ -55,7 +55,9 @@ cat: missing_file: No such file or directory
 * If you want your command to execute and not print error messages on the screen, even if it generates a standard error, you can redirect to /dev/null, like this. 
 * /dev/null is referred to as the bit bucket. The place where you dump anything you don't need, in this case, the standard error, which we do not want to be printed on the screen. 
 
+* Another useful command to work with standard input and standard output is the tee command. Instead of the redirect operator, we can use a command-line pipe followed by the tee command and the file name to redirect the output. The difference is that with tee, the standard output is still printed on the screen before overwriting the contents of the file with the same string. 
 
+* Use tee -a option to append the file instead of overwriting it. 
 
 
 
