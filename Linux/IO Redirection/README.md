@@ -39,8 +39,17 @@ cat missing_file 2> error.txt
 cat error.txt
 cat: missing_file: No such file or directory
 ```
+If the file doesn't exist, a new one will be created. Otherwise, the file will be overwritten. 
 
+* To append the standard error to an existing file, use the number 2 double forward symbol. Example,
 
+```
+cat missing_file 2>> shell.txt
+```
 
+```
+cat shell.txt
+cat: missing_file: No such file or directory
+```
 
 
