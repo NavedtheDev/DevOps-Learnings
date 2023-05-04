@@ -131,6 +131,26 @@ Output,
 
 
 
+### Multidimensional array ###
+
+* Until now, we've just talked about single-dimensional arrays, but we also have multi-dimensional array. A multi-dimensional array is an array that has more than one dimension. It's like an array of arrays or basically an array that has multiple levels. 
+
+* The simplest multi-dimensional array is the 2-d array or two-dimensional array. Example,
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	arr := [3][2]int{{9, 2}, {4, 28}, {16, 81}}
+	fmt.Println(arr[2][1])
+}
+```
+Output,
+```
+81
+```
 
 
 
