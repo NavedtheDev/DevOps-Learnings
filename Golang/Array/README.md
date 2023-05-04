@@ -91,6 +91,47 @@ Output,
 2
 ```
 
+* We can loop through an array using for loop.
+
+* We can also loop through an array using the range keyword. The range keyword is mainly used in for loops, in order to iterate over all the elements of an array, slice, or map. 
+
+* For arrays, range sets the scope of iteration up to the length of the array. 
+
+* Syntax, 
+
+```
+for index, element := range nums {
+	fmt.Println(index, "=>", element)
+}
+```
+
+* In the case of arrays and slices, the first value returned is the index, and the second value is the element itself. Example,
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	var nums [5]int = [5]int{1, 2, 3, 4, 5}
+
+	for index, element := range nums {
+		fmt.Println(index, "=>", element)
+	}
+}
+```
+Output,
+```
+0 => 1
+1 => 2
+2 => 3
+3 => 4
+4 => 5
+```
+
+
+
+
 
 
 
