@@ -56,8 +56,23 @@ Output,
 [1 2 3]
 ```
 
+* We can find the length of an array using a built in length function. The len function over here takes an array as an input and returns us the size of the array. Example,
 
+```
+package main
 
+import "fmt"
+
+func main() {
+	var nums [3]int = [3]int{1, 2, 3}
+	fmt.Println(len(nums))
+
+}
+```
+Output,
+```
+3
+```
 
 
 
