@@ -29,3 +29,10 @@ locate example.txt
 ```
 grep -r "Cricket" /home/naved
 ```
+ 
+* Use the -v option, This option lists all lines that do not contain a particular string. 
+
+* The -A and -B command flags can be used to print a number of lines after and before matching a pattern. They can be used together and separately also.
+
+
+
