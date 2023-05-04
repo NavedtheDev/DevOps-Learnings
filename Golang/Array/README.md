@@ -74,8 +74,22 @@ Output,
 3
 ```
 
+* An array is numbered and these numbers are called array index. The first element of an array has the index zero, while the last element here has the index length minus one. We can access array elements using these indexes as well. Example,
 
+```
+package main
 
+import "fmt"
+
+func main() {
+	var nums [3]int = [3]int{1, 2, 3}
+	fmt.Println(nums[1])
+}
+```
+Output,
+```
+2
+```
 
 
 
