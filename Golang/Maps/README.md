@@ -59,8 +59,24 @@ Output,
 true 1
 ```
 
+* Now, adding an item to the map is done by using a new index key and assigning a value to it. Example,
 
+```
+package main
 
+import "fmt"
+
+func main() {
+	codes := map[string]int{"en": 1, "hh": 2}
+
+	codes["it"] = 3
+	fmt.Println(codes)
+}
+```
+Output,
+```
+map[en:1 hh:2 it:3]
+```
 
 
 
