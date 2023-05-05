@@ -113,3 +113,29 @@ Output,
 [1 2 3 4 5 6 7 8 9 10]
 [1 2 4 5 6 7 8 9 10]
 ```
+
+* To copy elements from one slice to another we use copy() function. It also returns the number of elements that have been copied which is the minimum of the length of the destination slice or the length of the source slice. Note that the slices must be initialized with tye same data type. Example,
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	src_slice := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	dest_slice := make([]int, 3)
+
+	num := copy(dest_slice, src_slice)
+
+	fmt.Println(dest_slice)
+	fmt.Println("Numbers of elements copied: ", num)
+}
+```
+Output,
+```
+[1 2 3]
+Numbers of elements copied:  3
+```
+
+
+
