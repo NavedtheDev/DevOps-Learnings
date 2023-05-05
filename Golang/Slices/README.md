@@ -83,7 +83,33 @@ slice = append(slice, 7, 8, 9)
 
 <b>NOTE</b>: Capacity of our slice gets doubled whenever we append our slice more than it's present capacity.
 
+* We can append a slice to another slice by using the three dots. Syntax,
 
+```
+slice = append(slice, slice_1...)
+```
 
+* We can delete elements from a slice by creating anew slice which does not contain the element that has to be deleted. Example,
 
+```
+package main
 
+import "fmt"
+
+func main() {
+	arr := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	i := 2
+	fmt.Println(arr)
+
+	slice_1 := arr[:i]
+	slice_2 := arr[i+1:]
+
+	new_slice := append(slice_1, slice_2...)
+	fmt.Println(new_slice)
+}
+```
+Output,
+```
+[1 2 3 4 5 6 7 8 9 10]
+[1 2 4 5 6 7 8 9 10]
+```
