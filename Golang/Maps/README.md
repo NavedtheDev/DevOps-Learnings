@@ -13,4 +13,10 @@
 ```
 var <map_name> map[key_data_type>]<value_data_type>
 ```
+This syntax created an empty map. So, if we try to add values in it, it will throw us an error. 
 
+* To create maps with key-value pairs, we need to initialize it as well. Syntax,
+
+```
+<map_name> := map[<key_data_type>]<value_data_type>{<key_value_pairs>}
+```
