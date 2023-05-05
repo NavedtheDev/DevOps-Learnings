@@ -73,7 +73,16 @@ slice := make([]<data_type, length, capacity)
 ```
 Generally, make() is used to create an empty slice. So, if we print that slice, we will get zero value, since we have not initialised the slice yet. 
 
-* 
+* When you change a value in the slice, it also gets changed in the underlying array, since slice is a reference to an underlying array. 
+
+* append() is a built-in function which adds the elements at the end of the slice. Example,
+
+```
+slice = append(slice, 7, 8, 9)
+```
+
+<b>NOTE</b>: Capacity of our slice gets doubled whenever we append our slice more than it's present capacity.
+
 
 
 
