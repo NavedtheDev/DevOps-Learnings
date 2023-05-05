@@ -78,7 +78,23 @@ Output,
 map[en:1 hh:2 it:3]
 ```
 
+* We can also update the value of a specific item by referring to its key name. It will overwrite or update the value of that key with the new value. Example,
 
+```
+package main
 
+import "fmt"
+
+func main() {
+	codes := map[string]int{"en": 1, "hh": 2}
+
+	codes["en"] = 3
+	fmt.Println(codes)
+}
+```
+Output,
+```
+map[en:3 hh:2]
+```
 
 
