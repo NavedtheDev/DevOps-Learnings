@@ -137,5 +137,5 @@ Output,
 Numbers of elements copied:  3
 ```
 
-
+* Looping through a slice is same as looping through an array.
 
