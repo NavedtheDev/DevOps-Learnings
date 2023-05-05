@@ -41,8 +41,23 @@ codes := map[string]string{"en": "english", "fr": "french"}
 fmt.Println(map_name["key_name"])
 ```
 
+* Now, when we say getting a key while talking about maps, we mean getting the value associated with the key. When you index a map in Go, you get two return values. The first is the value and second(optional) is a boolean that indicates if the key exists. If the key doesn't exist, the first value will be the default zero value. Example,
 
+```
+package main
 
+import "fmt"
+
+func main() {
+	codes := map[string]int{"en": 1, "hh": 2}
+	value, found := codes["en"]
+	fmt.Println(found, value)
+}
+```
+Output,
+```
+true 1
+```
 
 
 
