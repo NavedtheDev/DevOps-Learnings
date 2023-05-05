@@ -139,12 +139,42 @@ en => 1
 hh => 2
 ```
 
+* We can also truncate our map. Truncating means clearing all elemnets from a map. There are two methods to do that. 
+* First one is by iterating over the map and deleting the key sone by one. Example,
+```
+package main
 
+import "fmt"
 
+func main() {
+	codes := map[string]int{"en": 1, "hh": 2}
 
+	for key, _ := range codes {
+		delete(codes, key)
+	}
+	fmt.Println(codes)
+}
+```
+Output,
+```
+map[]
+```
 
+* The second method is to simply re-initialize it with an empty map. Example,
 
+```
+package main
 
+import "fmt"
 
+func main() {
+	codes := map[string]int{"en": 1, "hh": 2}
 
-
+	codes = make(map[string]int)
+	fmt.Println(codes)
+}
+```
+Output,
+```
+map[]
+```
