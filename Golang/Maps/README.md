@@ -118,8 +118,26 @@ map[en:1 hh:2]
 map[hh:2]
 ```
 
+* Now for looping or iterating over a map, the range expression returns the key and the value. For arrays and slices, it returns as index and element, while for maps, it returns as the key and the value. Example,
 
+```
+package main
 
+import "fmt"
+
+func main() {
+	codes := map[string]int{"en": 1, "hh": 2}
+
+	for key, value := range codes {
+		fmt.Println(key, "=>", value)
+	}
+}
+```
+Output,
+```
+en => 1
+hh => 2
+```
 
 
 
