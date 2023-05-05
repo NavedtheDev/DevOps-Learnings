@@ -97,4 +97,36 @@ Output,
 map[en:3 hh:2]
 ```
 
+* To delete a key-value pair from a map, we have delete(). It takes the name of our map and the name of the key that we want to delete. Example,
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	codes := map[string]int{"en": 1, "hh": 2}
+	fmt.Println(codes)
+
+	delete(codes, "en")
+	fmt.Println(codes)
+}
+```
+Output,
+```
+map[en:1 hh:2]
+map[hh:2]
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
