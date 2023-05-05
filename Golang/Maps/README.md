@@ -26,3 +26,28 @@ This syntax created an empty map. So, if we try to add values in it, it will thr
 ```
 codes := map[string]string{"en": "english", "fr": "french"}
 ```
+
+* We can also use make() to create a map. The make() takes argumented type of the map, and it returns us an initialized map. Capacity here is an optional argument. Syntax,
+
+```
+<map_name> := make(map[<key_data_type>]<value_data_type>,<initial_capacity>) 
+```
+
+* To determine how many items or key-value pairs a map has, we use the len() function. It will return zero for an uninitialized map.
+
+* We can also access the items of a map by referring to its key name, simply by specifying the name of the map and writing its key name inside the square brackets. Syntax,
+
+```
+fmt.Println(map_name["key_name"])
+```
+
+
+
+
+
+
+
+
+
+
+
