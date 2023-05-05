@@ -20,3 +20,9 @@ This syntax created an empty map. So, if we try to add values in it, it will thr
 ```
 <map_name> := map[<key_data_type>]<value_data_type>{<key_value_pairs>}
 ```
+
+* Example,
+
+```
+codes := map[string]string{"en": "english", "fr": "french"}
+```
