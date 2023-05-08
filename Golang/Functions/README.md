@@ -2,6 +2,8 @@
 
 * They help us divide a program into small manageable, repeatable and organisable chunks. 
 
+* They are also known as method.
+
 ## Why use functions? ##
 
 * <b>Reusablility:</b> We define a function once and then can call it multiple times. 
