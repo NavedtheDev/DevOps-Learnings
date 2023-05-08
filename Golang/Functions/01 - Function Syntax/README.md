@@ -23,3 +23,14 @@ func addNumbers(a int, b int) int {
 }
 ```
 
+## Calling a function ##
+
+* Syntax,
+
+```
+<function_name>(<arguments>)
+```
+Example,
+```
+addNumbers(2, 3)
+```
