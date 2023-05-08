@@ -34,3 +34,25 @@ Example,
 ```
 addNumbers(2, 3)
 ```
+
+* To recieve the values returned by a function, we store it in variables. Example,
+
+```
+sumOfNumbers := addNumbers(2, 3)
+```
+
+## Naming convention for functions ##
+
+   1. must begin with a letter.
+   2. can have any number of additional letters and symbols.
+   3. cannot contain spaces.
+   4. case-sensitive.
+
+
+
+
+
+
+
+
+
