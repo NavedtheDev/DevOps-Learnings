@@ -51,3 +51,39 @@ Example,
 ```
 
 
+
+## Variadic functions ##
+
+
+* function that accepts variable number of arguments.
+
+* it is possible to pass a varying number of arguments of the same type as referenced in the function signature.
+
+* to declare a variadic function, the type of the final parameter is preceded by an ellipsis "..."
+
+* Synatx,
+
+```
+func <func_name>(param-1 type, param-2 type, param-3 ...type) <return_type>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
