@@ -66,8 +66,14 @@ Example,
 ```
 func <func_name>(param-1 type, param-2 type, param-3 ...type) <return_type>
 ```
+Example,
+```
+func sumNumbers(numbers ...int) int
 
-
+            AND
+	    
+func sumNumbers(str string, numbers ...int)
+```
 
 
 
