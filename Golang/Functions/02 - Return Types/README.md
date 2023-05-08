@@ -102,16 +102,26 @@ Computer Science, Physics,
 
 
 
+## Blanl identifier ##
 
+* Used to ignore a value returned by the function.
+* Example,
 
+```
+package main
 
+import "fmt"
 
+func f() (int, int) {
+	return 10, 20
+}
 
-
-
-
-
-
-
-
-
+func main() {
+	r, _ := f()
+	fmt.Println(r)
+}
+```
+Output,
+```
+10
+```
