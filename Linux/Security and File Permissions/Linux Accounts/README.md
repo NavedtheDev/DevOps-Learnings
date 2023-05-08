@@ -1,18 +1,18 @@
 ## User Account ## 
 
-* A user account refers to individual people who need access to the linux system. 
+A user account refers to individual people who need access to the linux system. 
 
 ## Superuser Account ##
 
-* A super user account is the root which has the UID 0. The superuser has unrestricted access and control over the system, including other users. 
+A super user account is the root which has the UID 0. The superuser has unrestricted access and control over the system, including other users. 
 
 ## System Accounts ##
 
-* They are usually created during the OS installation. These are for use by software and services that will not run as the super user. SSHD and the mail user are examples. 
+They are usually created during the OS installation. These are for use by software and services that will not run as the super user. SSHD and the mail user are examples. 
 
 ## Service Accounts ##
 
-* They are similar to system accounts and are created when services are installed on linux. Example, an nginx server makes use of a service account called nginx. 
+They are similar to system accounts and are created when services are installed on linux. Example, an nginx server makes use of a service account called nginx. 
 
 
 
@@ -26,4 +26,4 @@
 
 ## Switching Users ##
 
-* su -> with this command. you can switch to any other user in the system, including root. 
+su -> with this command. you can switch to any other user in the system, including root. 
