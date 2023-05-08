@@ -25,7 +25,7 @@ Example,
 
 
 
-## named return values ##
+## Returning named values ##
 
 * We can give a name to our return variables in the function signature only. Example,
 
