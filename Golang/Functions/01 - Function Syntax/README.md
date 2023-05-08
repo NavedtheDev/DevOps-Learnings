@@ -50,6 +50,25 @@ sumOfNumbers := addNumbers(2, 3)
 
 
 
+* Example,
+
+```
+package main
+
+import "fmt"
+
+func printGreeting(str string) {
+	fmt.Println("Hey there,", str)
+}
+
+func main() {
+	printGreeting("Naved")
+}
+```
+Output,
+```
+Hey there, Naved
+```
 
 
 
