@@ -75,8 +75,30 @@ func sumNumbers(numbers ...int) int
 func sumNumbers(str string, numbers ...int)
 ```
 
+* Example program, 
 
+```
+package main
 
+import "fmt"
+
+func printDetails(student string, subjects ...string) {
+	fmt.Println("hey", student, "here are your subjects:")
+	for _, sub := range subjects {
+		fmt.Printf("%s, ", sub)
+	}
+
+}
+
+func main() {
+	printDetails("Naved", "Computer Science", "Physics")
+}
+```
+Output,
+```
+hey Naved here are your subjects:
+Computer Science, Physics,
+```
 
 
 
