@@ -35,6 +35,7 @@ ssh -l <user> <hostname OR IP_Address>
    ssh-keygen -t rsa
    ```
    When you run this command, it will ask you to enter a passphrase. It is optional, but improves the security of the key. Only downside of having a passphrase is then having to type it in each time you use the key pair. 
+   
    2. Next step is to copy the public key o the remote server. You have to go through password-based authentication atleast once. Use this command syntax,
    ```
    ssh-copy-id <user>@<hostname OR IP_Address>
