@@ -36,6 +36,8 @@ chown <owner>:<group> <file_OR_directory>
 
 If a group is not provided, only the ownership is changed. 
 
+<b>NOTE:</b> Using the -R flag with chown command will change the ownership for the entire directory including all the files inside to the service account.
+
 * Group can be changes using the command 'chgrp'. It modifies only the group of the file or directory. 
 
 
