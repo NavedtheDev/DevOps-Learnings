@@ -27,3 +27,24 @@ chmod <permission> <file_name>
    ```
    chmod 555 example.txt -> Provide read and execute access to owners, groups and others.
    ```
+
+* Let us see how to change the ownership and group. We use 'chown' command for this. Syntax,
+
+```
+chown <owner>:<group> <file_OR_directory>
+```
+
+If a group is not provided, only the ownership is changed. 
+
+* Group can be changes using the command 'chgrp'. It modifies only the group of the file or directory. 
+
+
+
+
+
+
+
+
+
+
+
