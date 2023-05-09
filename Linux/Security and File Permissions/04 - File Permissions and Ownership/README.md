@@ -38,15 +38,8 @@ If a group is not provided, only the ownership is changed.
 
 <b>NOTE:</b> Using the -R flag with chown command will change the ownership for the entire directory including all the files inside to the service account.
 
-* Group can be changes using the command 'chgrp'. It modifies only the group of the file or directory. 
+* Group can be changes using the command 'chgrp'. It modifies only the group of the file or directory. Example,
 
-
-
-
-
-
-
-
-
-
-
+```
+chgrp developer example.txt -> Change the group for the example.txt file to the group called developer.
+```
