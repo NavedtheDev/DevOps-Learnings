@@ -1,7 +1,5 @@
 # SSH #
 
-
-
 * SSH is used for logging into and executing commands on a remote computer. Syntax.
 
 ```
@@ -47,24 +45,13 @@ ssh -l <user> <hostname OR IP_Address>
 
 # SCP #
 
+* SCP allows us to copy data over SSH. This means that you can copy files and directories between your laptop and any other server to which you have SSH access. Example,
 
+```
+scp /home/naved/example.txt prodapp01:/home/naved
+```
+<b>NOTE:</b> You should have permission to write to the directory in the destination, else you will get a permission denied error. 
 
+* If you want to copy directories instead of files, use -r option. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* To preserve the ownership and permission of the source file, use -p flag. 
