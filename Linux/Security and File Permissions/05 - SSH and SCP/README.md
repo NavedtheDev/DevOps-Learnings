@@ -24,3 +24,41 @@ ssh -l <user> <hostname OR IP_Address>
 
    1. <b>Private Key:</b> This is the key only you as the client will have and is not shared with anyone else. 
    2. <b>Public Key:</b> It can be shared with others, including our remote server. When it is installed on the remote server, you can unlock it by connection to it with a client that already has the private key. 
+
+
+* To setup a password-less authentication, 
+
+   1. Create the key pair on the client, which is your laptop using this command,
+   ```
+   ssh keygen -t rsa
+   ```
+   When you run this command, it will ask you to enter a passphrase. It is optional, but improves the security of the key. Only downside of having a passphrase is then having to type it in each time you use the key pair. 
+   2. Next step is to copy the public key o the remote server. You have to go through password-based authentication atleast once. Use this command syntax,
+   ```
+   ssh-copy-id <user>@<hostname OR IP_Address>
+   ```
+   Once you enter this command, you will be asked to enter the password for your user on the remote server. After this, you will be able to access the remote server without entering a password. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
