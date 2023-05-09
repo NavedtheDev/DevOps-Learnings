@@ -1,3 +1,7 @@
+# SSH #
+
+
+
 * SSH is used for logging into and executing commands on a remote computer. Syntax.
 
 ```
@@ -40,6 +44,8 @@ ssh -l <user> <hostname OR IP_Address>
    Once you enter this command, you will be asked to enter the password for your user on the remote server. After this, you will be able to access the remote server without entering a password. 
 
 
+
+# SCP #
 
 
 
