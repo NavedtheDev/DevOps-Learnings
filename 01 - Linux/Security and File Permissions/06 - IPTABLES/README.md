@@ -27,3 +27,35 @@ sudo iptables -L
 
 
 ![Screenshot (148)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/39865ed9-ba8c-43fc-b84d-26657f949b43)
+
+
+
+* Example of creating an input rule on a dev server,
+
+```
+iptables -A INPUT -p tcp -s 172.18.216.10 --dport 22 -j ACCEPT
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
