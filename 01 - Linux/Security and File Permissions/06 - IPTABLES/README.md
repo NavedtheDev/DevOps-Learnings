@@ -33,7 +33,7 @@ sudo iptables -L
 * Example of creating an input rule on a dev server,
 
 ```
-iptables -A INPUT -p tcp -s 172.18.216.10 --dport 22 -j ACCEPT
+sudo iptables -A INPUT -p tcp -s 172.18.216.10 --dport 22 -j ACCEPT
 ```
 
 * If we use -I option instead of -A, it will insert the rule to the top of the chain instead of the bottom. 
