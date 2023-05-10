@@ -46,6 +46,12 @@ iptables -A INPUT -p tcp -s 172.18.216.10 --dport 22 -j ACCEPT
 
 
 
+* To delete a rule, use -D option. For example, to delete a rule at posiion 3, 
+
+```
+iptables -D OUTPUT 3 
+```
+
 
 
 
