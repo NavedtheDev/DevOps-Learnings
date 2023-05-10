@@ -16,3 +16,14 @@ sudo apt install iptables
 sudo iptables -L
 ```
 
+* We will see three types of rules or chains configured by default after running above command, input, forward and output. 
+
+   1. The input chain is applicable to network traffic coming into the system. 
+   2. The output chain is responsible for connections initiated he system to other systems. 
+   3. Forward chain is used in network routers where the data is forwarded to other devices in the network. It is not commonly used in a linux server. 
+
+* They are called chains because each chain can have multiple rules within it. Each rule performs a check and accepts or drops the packet based on the condition.
+
+
+
+![Screenshot (148)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/39865ed9-ba8c-43fc-b84d-26657f949b43)
