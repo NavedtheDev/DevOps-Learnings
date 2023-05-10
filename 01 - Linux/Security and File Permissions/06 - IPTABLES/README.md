@@ -36,13 +36,13 @@ sudo iptables -L
 iptables -A INPUT -p tcp -s 172.18.216.10 --dport 22 -j ACCEPT
 ```
 
-
+* If we use -I option instead of -A, it will insert the rule to the top of the chain instead of the bottom. 
 
 ![Screenshot (149)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/c673311c-483e-41b0-a869-557382053e6b)
 
 
 
-
+<b>NOTE:</b> Sequence in which we add rules is very important. They are implemented from top to bottom. 
 
 
 
