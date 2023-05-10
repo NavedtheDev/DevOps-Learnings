@@ -51,19 +51,3 @@ iptables -A INPUT -p tcp -s 172.18.216.10 --dport 22 -j ACCEPT
 ```
 iptables -D OUTPUT 3 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
