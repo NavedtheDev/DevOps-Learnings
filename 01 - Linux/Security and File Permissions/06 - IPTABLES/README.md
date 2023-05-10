@@ -38,6 +38,8 @@ iptables -A INPUT -p tcp -s 172.18.216.10 --dport 22 -j ACCEPT
 
 
 
+![Screenshot (149)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/c673311c-483e-41b0-a869-557382053e6b)
+
 
 
 
