@@ -18,3 +18,27 @@ sudo systemctl start project-mercury.service
 ```
 sudo systemctl status project-mercury.service
 ```
+
+* To stop the service,
+
+```
+sudo systemctl status project-mercury.service
+```
+
+* To allow the above service to be enabled during boot, add another section called install. 
+
+* Here is a complete example,
+
+![Screenshot (156)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/4971eabe-f4b0-462c-ba06-39d56c936a3d)
+
+* For the system to detect the changes, use the command,
+
+```
+sudo systemctl deamon-reload 
+```
+
+then,
+
+```
+sudo systemctl start project-mercury.service
+```
