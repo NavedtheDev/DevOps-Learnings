@@ -2,9 +2,9 @@
 
 * The two major tools are: systemctl and journalctl. 
 
-* <b>sysytemctl:</b> The main command used to manage services on a SYSTEMD-managed server. It can be used to manage services such as start, restart, stop, reload, enable or disable services to start during the system boot. 
+# systemctl #
 
-* <b>journalctl:</b> This command can query the contents of the SYSTEMD logging system called journal and is a convenient troubleshooting tool to figure out issues such as service failures. 
+* <b>sysytemctl:</b> The main command used to manage services on a SYSTEMD-managed server. It can be used to manage services such as start, restart, stop, reload, enable or disable services to start during the system boot. 
 
 * Let us look at some systemctl commands.
 
@@ -62,6 +62,10 @@
    systemctl list-units
    ```
    
+# journalctl #
+   
+* <b>journalctl:</b> This command can query the contents of the SYSTEMD logging system called journal and is a convenient troubleshooting tool to figure out issues such as service failures. 
+   
 * journalctl is useful when troubleshooting issues with SYSTEMD units as it checks the journal or log entries from all parts of the system. 
 
 * 'journalctl' without any flags prints all the log entries from the oldest entry to the newest. 
@@ -77,9 +81,3 @@ journalctl -b
 ```
 journalctl -u <name_of_unit>
 ```
-
-
-
-
-
-
