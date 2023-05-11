@@ -62,13 +62,21 @@
    systemctl list-units
    ```
    
+* journalctl is useful when troubleshooting issues with SYSTEMD units as it checks the journal or log entries from all parts of the system. 
 
-   
+* 'journalctl' without any flags prints all the log entries from the oldest entry to the newest. 
 
+* To see the logs from the current boot, 
 
+```
+journalctl -b
+```
 
+* To see the log entries for a specific unit, 
 
-
+```
+journalctl -u <name_of_unit>
+```
 
 
 
