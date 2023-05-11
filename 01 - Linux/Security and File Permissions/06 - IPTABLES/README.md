@@ -4,7 +4,7 @@
 
 * iptables allows you to set up rules to filter, modify, and route network packets, giving you control over incoming and outgoing traffic on your system. 
 
-* To install iptables on Ubuntu, use the comand,
+* To install iptables on Ubuntu, use the command,
 
 ```
 sudo apt install iptables
