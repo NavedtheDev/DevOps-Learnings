@@ -1,4 +1,4 @@
-# Declaraton #
+# Declaration #
 
 * Syntax,
 
