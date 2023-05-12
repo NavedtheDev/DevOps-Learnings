@@ -42,12 +42,3 @@ var <variable_name> <struct_name>
 <field_name>: <value>,
 }
 ```
-
-
-
-
-
-
-
-
-
