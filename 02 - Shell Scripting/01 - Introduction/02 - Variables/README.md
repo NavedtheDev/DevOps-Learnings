@@ -34,3 +34,9 @@ rocket-lift-off $mission_name
 rocket_status=$(rocket-status $mission_name)
 echo "Status of launch: $rocket_status"
 ```
+
+
+
+## Best Practices ##
+
+* Use lower case to declare the variables. And, underscores too. 
