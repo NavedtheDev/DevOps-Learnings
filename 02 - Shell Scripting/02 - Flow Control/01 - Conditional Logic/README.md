@@ -20,4 +20,10 @@
 
 ![Screenshot (182)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/25499db4-7921-40dc-a8fb-af049876a9b8)
 
-* There is another way 
+* There is another way of specifying a conditional operation and that's using double square brackets. These work similar to the single pair of squrae brackets, except that it is an enhanced version and support additional operations. Here is the list,
+
+![Screenshot (183)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/54bc2ae6-1e02-4bbb-8aa8-59e1b4d51555)
+
+
+
+## AND OR operators ##
