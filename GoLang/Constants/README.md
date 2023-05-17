@@ -1,4 +1,4 @@
-* Constants they those variables whose values once initialized cannot be modified.
+* Constants are those variables whose values once initialized cannot be modified.
 * The syntax to declare a constant in Golang is:
 
 ```
