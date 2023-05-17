@@ -77,12 +77,12 @@ Wrong
 
 
 
-### else if statement ###
+# else if statement #
 
 * Example,
 
 ```
-ackage main
+package main
 
 import (
 	"fmt"
