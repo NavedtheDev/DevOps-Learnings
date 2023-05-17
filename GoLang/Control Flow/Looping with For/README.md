@@ -8,8 +8,8 @@ for initialization; condition; post {
 }
 ```
 
-   1.This initialization statement is optional and it executes before the for loop starts. It is mostly used in simple statements like variable declarations or increment or assignment statement. 
-   2. Then we have the condition statement. The condition statement holds a Boolean expression, which is evaluated at the starting of each iteration of the loop. If the value of the conditional statement is true, then the loop will execute. 
+   1.This initialization statement is optional and it executes before the for loop starts. It is mostly used in simple statements like variable declarations or increment or assignment statement. <br>
+   2. Then we have the condition statement. The condition statement holds a Boolean expression, which is evaluated at the starting of each iteration of the loop. If the value of the conditional statement is true, then the loop will execute. <br>
    3. Then we have the post statement, which is also optional and is executed after each iteration of the for loop. After the post statement, the condition statement evaluates again. If the value of the conditional statement is false, then the loop ends. It can also be written in the loop body.
    
    
