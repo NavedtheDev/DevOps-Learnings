@@ -14,7 +14,7 @@ func main() {
 }
 ```
 * Here %s is a format specifier for string. The arguments consist of the name variable which is a string variable itself. 
-* Note the ampersand sign over here, we need to use it with the scanner function. We will understand this more when we study about pointers.
+* Note the ampersand sign over here, we need to use it with the Scanf function. We will understand this more when we study about pointers.
 * When we run the program, the program will prompt the user to enter their name. 
 * Output will look like this,
 
