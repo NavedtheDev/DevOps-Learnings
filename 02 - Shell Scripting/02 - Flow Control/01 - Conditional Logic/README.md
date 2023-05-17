@@ -26,4 +26,18 @@
 
 
 
-## AND OR operators ##
+## AND and OR operators ##
+
+* Suppose you have two conditions and you want to check if both of them are correct, then use the AND(&&) operator. 
+
+* To check if either one is true, use the OR(||) operator. 
+
+* We can use both single square bracket format and double square bracket format. Here is how.
+
+![Screenshot (184)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/39a7b08d-9683-4787-999f-29268291d48b)
+
+
+
+* There are some file-level operators as well. Here is the list.
+
+![Screenshot (185)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/cccbae00-942b-4e65-8442-cbc4787a1260)
