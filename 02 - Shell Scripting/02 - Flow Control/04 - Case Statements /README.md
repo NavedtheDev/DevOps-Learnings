@@ -11,3 +11,7 @@
 * Case statememts is like the switch statements in the programming languages. 
 
 ![Screenshot (190)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/f807fa61-96da-41d4-af83-45b7236e9312)
+
+* Another example,
+
+![Screenshot (191)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/1cc277ff-7f3f-4a2d-8e23-47e50343ae67)
