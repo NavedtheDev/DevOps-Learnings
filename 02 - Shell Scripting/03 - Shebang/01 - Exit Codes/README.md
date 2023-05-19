@@ -14,4 +14,4 @@ echo $?
 
 * If we don't specify any exit status, then the script will always automatically set the exit code to zero. For the script to return non-zero when the script is failed, enter the statement 'exit 1' . 
 
-* As a best practice, always make sure your script returns an appropriate exit code. 
+* As a best practice, always make sure your script returns an appropriate exit code.
