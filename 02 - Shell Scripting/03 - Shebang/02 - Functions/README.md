@@ -9,3 +9,7 @@
 * Our script now has two major functions. At the top, we have the function definition. And below, we have the main part of the script that calls that function. 
 
 <b>NOTE:</b> Function must always be defined first before calling it. 
+
+* In functions we need to take care of 'exit' statements. Because if the first script fails, the script will exit. However, we do not want that. We want the script to continue. So, instead of exit statements in functions, we use the 'return' statement. It will print the exit code iof the script as weel as it will not exit the script, it will only exit the function. 
+
+* Return statement in shell scripts do not work like thosein programming languages. They are used to return exit status only. You cannot retrieve the return value by assigning the function call to a variable. Instead, we must retrieve the return code using the '$?' built-in variable that retrieves exit codes of previously run command.  
