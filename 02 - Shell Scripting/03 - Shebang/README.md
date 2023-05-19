@@ -9,3 +9,5 @@
 * The Shebang instructs the shell to use a particular shell or interpreter for the script. 
 
 * One of the best practice while developing a shell script is to always start with a Shebang at the top of your script. 
+
+![Screenshot (193)](https://github.com/NavedtheDev/DevOps-Learnings/assets/98219227/aa1d85a5-4f40-4f3e-85f0-32fd6db27243)
