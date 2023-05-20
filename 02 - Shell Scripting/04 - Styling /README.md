@@ -28,7 +28,23 @@ echo -e "${GREEN} $1 ${NC}"
 print_color "Installing firewalld..."
 ```
 
+* Example of a function to use multiple colors, 
 
+```
+function print_color() {
+
+    case $1 in 
+      "green") COLOR="\033[0;32m" ;;
+      "red") COLOR="\033[0;31m" ;;
+      "*") COLOR="\033[0m"
+    esac
+
+    echo -e "${COLOR} $2 ${NC}"
+}
+
+print_color "green" "Installing firewalld..."
+print_color "red" "Failed!"
+```
 
 
 
