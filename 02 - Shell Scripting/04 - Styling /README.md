@@ -20,7 +20,7 @@ echo -e "${GREEN}Installing firewalld...${NC}"
 ```
 function print_color() {
     GREEN="\033[0;32m"
-NC="\033[0m"
+    NC="\033[0m"
 
 echo -e "${GREEN} $1 ${NC}"
 }
