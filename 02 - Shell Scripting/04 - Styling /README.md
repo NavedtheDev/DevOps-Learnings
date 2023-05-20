@@ -24,4 +24,7 @@ function print_color() {
 
 echo -e "${GREEN} $1 ${NC}"
 }
+
+print_color "Installing firewalld..."
 ```
+
