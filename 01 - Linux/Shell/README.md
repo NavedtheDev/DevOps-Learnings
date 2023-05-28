@@ -18,7 +18,7 @@ type cd
 * Output will be, 
 
 ```
-echo is a shell builtin
+cd is a shell builtin
 ```
 
 * NOTE: There are three parts in a Linux sentence
