@@ -17,3 +17,9 @@
 ```
 git help
 ```
+
+* Use this command to get help on each command,
+
+```
+git help <command>
+```
