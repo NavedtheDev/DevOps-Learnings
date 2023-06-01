@@ -91,7 +91,7 @@ slice = append(slice, 7, 8, 9)
 slice = append(slice, slice_1...)
 ```
 
-* We can delete elements from a slice by creating anew slice which does not contain the element that has to be deleted. Example,
+* We can delete elements from a slice by creating a new slice which does not contain the element that has to be deleted. Example,
 
 ```
 package main
