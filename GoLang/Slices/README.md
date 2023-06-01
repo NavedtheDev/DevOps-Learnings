@@ -6,7 +6,7 @@
 
    1. Pointer : used to point to the first element of the array that is accesible through that slice. It is not necessary that the pointed element is laways the first element of the array.
    2. Length : number of elements it contains.  
-   3. Capacity : number of elements in the underlying array counting from the firast element in the slice. 
+   3. Capacity : number of elements in the underlying array counting from the first element in the slice. 
    
 * Length and capacity of a slice can be obtained from functions len() and cap() respectively. 
 
