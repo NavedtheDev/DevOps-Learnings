@@ -4,6 +4,12 @@
 
 * It is on your own machine, so you have direct access to it. 
 
+* It consists of three stages. 
+
+   1. Working area: are all ypur active changes. Git doesn't know what to do with them yet, it just know that these files contain some updates. 
+   2. Staging area: contains new changes that will soon be committed.
+   3. Committed files.
+
 ## Remote Repository ##
 
 * It is usually a centralized server and is entirely optional. 
