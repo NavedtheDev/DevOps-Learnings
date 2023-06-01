@@ -42,7 +42,7 @@ Output,
 * To create a slice from an array, we have a start index and an end index. The element on the start index is included but the element at the end index is excluded. Syntax,
 
 ```
-array[start_index : end_index]
+slice := array[start_index : end_index]
 ```
 Example,
 ```
