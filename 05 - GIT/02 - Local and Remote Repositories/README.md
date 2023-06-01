@@ -10,6 +10,8 @@
    2. Staging area: contains new changes that will soon be committed.
    3. Committed files.
 
+* The files that should be included in the commit are first added to the staging area. A commit gets created when a developer actually commits those files. 
+
 ## Remote Repository ##
 
 * It is usually a centralized server and is entirely optional. 
