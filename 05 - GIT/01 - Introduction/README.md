@@ -11,3 +11,9 @@
 * When we have made changes, we can save the current state of the website. This way we always have all our versions stored, which makes it easy to go back in time. 
 
 * We have access to the project's full history, the changes we made, who made the changes, if we are working on a project with multiple team members, and when it was made. 
+
+* Use this command to get basic git commands,
+
+```
+git help
+```
