@@ -27,4 +27,8 @@ git status
 git add <file_name>
 ```
 
-* Now it's time to commit our change. A commit records the change
+* Now it's time to commit our change. A commit records the change of a repository compared to its previous state. In order to commit the files that are currently in the stagin area, use, 
+
+```
+git commit -m " "
+```
