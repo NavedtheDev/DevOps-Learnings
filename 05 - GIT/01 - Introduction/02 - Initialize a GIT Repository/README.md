@@ -17,4 +17,14 @@ You will see that a .git folder has been created.
 git status
 ```
 
+* Storing changes in a local GIT repository is called committing. With every commit, we save the current state of the repository.
 
+* Till now we haven't told GIT what do we want to do with our file. So they are still untracked. 
+
+* We need to tell GIT that we want to add it to our local repository. Before we can commit a file, we first have to put it in the staging area. We can do so with the command,
+
+```
+git add <file_name>
+```
+
+* Now it's time to commit our change. A commit records the change
