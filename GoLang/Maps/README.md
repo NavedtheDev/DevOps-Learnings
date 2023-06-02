@@ -139,7 +139,7 @@ en => 1
 hh => 2
 ```
 
-* We can also truncate our map. Truncating means clearing all elemnets from a map. There are two methods to do that. 
+* We can also truncate our map. Truncating means clearing all elements from a map. There are two methods to do that. 
 * First one is by iterating over the map and deleting the key sone by one. Example,
 ```
 package main
