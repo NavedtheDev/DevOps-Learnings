@@ -32,3 +32,27 @@ git add <file_name>
 ```
 git commit -m " "
 ```
+Here, -m is a flag for a message. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
