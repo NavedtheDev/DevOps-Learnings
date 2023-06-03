@@ -17,3 +17,9 @@ git log --oneline
 ```
 git log --name-only
 ```
+
+* To get the specified number of recent outputs,
+
+```
+git log -n 1
+```
