@@ -27,7 +27,15 @@ git status
 git add <file_name>
 ```
 
-* Now it's time to commit our change. In order to commit the files that are currently in the staging area, use, 
+* Now it's time to commit our change. But before that we must configure the git user who will be the owner of the commit. We do so using the following commands,
+
+```
+git config user.email sarah@example.com
+
+git config user.name sarah
+```
+
+* Now, In order to commit the files that are currently in the staging area, use, 
 
 ```
 git commit -m " "
