@@ -102,7 +102,7 @@ Computer Science, Physics,
 
 
 
-## Blanl identifier ##
+## Blank identifier ##
 
 * Used to ignore a value returned by the function.
 * Example,
