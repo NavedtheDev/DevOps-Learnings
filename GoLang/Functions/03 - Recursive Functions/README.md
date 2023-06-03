@@ -1,4 +1,4 @@
-* Rcursion is a concept where a function calls itself by direct or indirect means. 
+* Recursion is a concept where a function calls itself by direct or indirect means. 
 
 * The function keeps calling itself until it reaches a base case.
 
