@@ -42,26 +42,3 @@ git commit -m " "
 ```
 Here, -m is a flag for a message. <br>
 A commit records the change of a repository compared to its previous state.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
