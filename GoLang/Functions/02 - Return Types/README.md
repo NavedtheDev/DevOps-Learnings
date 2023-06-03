@@ -61,7 +61,7 @@ Example,
 
 * to declare a variadic function, the type of the final parameter is preceded by an ellipsis "..."
 
-* Synatx,
+* Syntax,
 
 ```
 func <func_name>(param-1 type, param-2 type, param-3 ...type) <return_type>
