@@ -42,3 +42,9 @@ git commit -m " "
 ```
 Here, -m is a flag for a message. <br>
 A commit records the change of a repository compared to its previous state.
+
+
+
+## .gitignore ##
+
+* If we want a file not to be tracked by git, then we add that file inside the .gitignore file.
