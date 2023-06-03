@@ -11,3 +11,9 @@ git log
 ```
 git log --oneline
 ```
+
+* Use this command to get the name of the file,
+
+```
+git log --name-only
+```
