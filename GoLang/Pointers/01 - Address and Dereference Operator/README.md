@@ -1,6 +1,6 @@
 * <b>& operator</b> - The address of a variable can be obtained by preceding the name of a variable with an ampersand sign (&), known as address-of operator. 
 
-* <b>operator</b> - It is known as the dereference operator. When placed before an address, it returns the value at that address. 
+* <b>* operator</b> - It is known as the dereference operator. When placed before an address, it returns the value at that address. 
 
 * Example,
 
