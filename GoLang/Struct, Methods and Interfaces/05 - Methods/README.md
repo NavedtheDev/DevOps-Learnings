@@ -1,4 +1,4 @@
-* Mehod is similar to a function with one simple addition. 
+* Method is similar to a function with one simple addition. 
 
 * A method augments a function by adding an extra parameter section immediately after the func keyword that accepts a single argument. This argument is called a receiver. 
 
