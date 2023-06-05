@@ -1,4 +1,4 @@
-* They user-defined data type.
+* They are user-defined data type.
 
 * A structure groups together data elements.
 
