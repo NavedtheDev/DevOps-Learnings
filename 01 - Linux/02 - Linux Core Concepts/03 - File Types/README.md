@@ -48,4 +48,4 @@ ls -ld /home/naved-ahmad
 drwxr-xr-x 1 naved-ahmad naved-ahmad 4096 May  1 11:26 /home/naved-ahmad
 ```
 
-From the command output, look at the first character. The letter d denotes that this is a directory. Similarly, we can identify the rest of the file types by checking the first letter in the ls -l output. Regular files can be identified by a dash, character devices by the letter c, link, by the lowercase letter l, socket file by the letter s, named pipes by the letter p, and finally, block device by the letter b.
+From the command output, look at the first character. The letter d denotes that this is a directory. Similarly, we can identify the rest of the file types by checking the first letter in the ls -l output. Regular files can be identified by a dash, character devices by the letter c, link, by the lowercase letter l, socket file by the letters, named pipes by the letter p, and finally, block device by the letter b.
