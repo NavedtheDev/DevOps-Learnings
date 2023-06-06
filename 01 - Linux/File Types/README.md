@@ -15,9 +15,13 @@
 * Special files can be subcategorized into five other file types. 
 
    1. Character files: These files represent devices under the /dev file system that allows the OS to communicate to IO devices serially. Examples include devices such as the mouse and the keyboard. 
+   
    2. Block files: These are files representing block devices also located under /dev. Examples of a block device are hard disks and RAM. 
+   
    3. Links: Links in Linux is a way to associate two or more file names to the same set of file data. There are two types of links. The hard link associates two or more file names that share the same block of data on the physical disk. The symbolic link or symlink can be loosely compared to a shortcut in Windows. They act as pointers to another file. Deleting a symlink does not affect the data in the actual file. 
+   
    4. Socket: A socket is a special file that enables the communication between two processes. 
+   
    5. Named Pipes: This is a special type of file that allows connecting one process as an input to another. The data flow in a pipe is unidirectional from the first process to the second. 
  
 
