@@ -15,7 +15,7 @@ in order to update the origin master branch in our local repo.
 git merge origin/master
 ```
 
-* We now jave all the latest changes avaialble locally. 
+* We now have all the latest changes avaialble locally. 
 
 * Instead of individually fetching and then merging, we can also pull the origin master branch with this command,
 
