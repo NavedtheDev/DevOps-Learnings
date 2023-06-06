@@ -11,7 +11,7 @@
 
 * The Kernel is also modular, which means it can extend its capabilities through the use of dynamically loaded Kernel modules. 
 
-* Let us now look at ways to identify the Linux Kernel version and understand the naming conventions. The Kernel is an integral part of the operating system. Use the Uname command to display information about the Kernel. 
+* Let us now look at ways to identify the Linux Kernel version and understand the naming conventions. The Kernel is an integral part of the operating system. Use the uname command to display information about the Kernel. 
 
 ```
 uname
