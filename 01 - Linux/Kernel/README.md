@@ -17,7 +17,7 @@
 uname
 ```
 
-* Use the dash r or dash  flag to print the Kernel version. 
+* Use the dash r or dash -a flag to print the Kernel version. 
 
 ```
 uname -r 
