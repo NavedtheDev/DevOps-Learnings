@@ -5,3 +5,7 @@ git rebase -i HEAD~4
 ```
 
 * Through the above command we are telling git that we want to interactively rebase the last four commits. 
+
+* Use the squash command to meld the three commits into the first commit. Change their command from pick to squash. 
+
+* We have successfully rebased the three extra commits and created a new commit that contains the changes of all four commits combined. 
