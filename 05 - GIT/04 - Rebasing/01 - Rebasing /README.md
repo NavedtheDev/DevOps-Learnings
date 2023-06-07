@@ -10,6 +10,10 @@
 git rebase main
 ```
 
+* Now your branch contains all the changes that were made to the main branch. 
+
 * By rebasing your feature branch onto the "main" branch, you create a linear commit history without the extra merge commits that would result from a regular merge. This can provide a cleaner and more organized commit history.
+
+* When we rebase the branches, we modify the Git history. It can be annoying when you are working with a team. It is not clear when certain branches got rebased since there is no merge commit. 
 
 * However, it's important to note that if you have already shared your feature branch with other team members or pushed it to a remote repository, it's generally not recommended to rebase it.
