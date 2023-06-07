@@ -1,3 +1,7 @@
+* Interactive rebasing is a feature in Git that allows you to modify, reorder, squash, or edit commits during the rebase process. It gives you more control over the commit history by providing an interactive interface where you can selectively apply changes to individual commits.
+
+* Interactive rebasing allows you to refine the commit history, combine related changes, and ensure a clean and organized history before merging into the main codebase.
+
 * We can change the history of a git branch with an interactive rebase. We do so using the -i flag in the git rebase command. Also, we have to specify which commits we want to update. Suppose want to modify the first four commits. So we will use the command,
 
 ```
