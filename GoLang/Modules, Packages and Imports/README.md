@@ -22,6 +22,6 @@
 
 * After that create a directory where we would be storing our project. Then, cd into that directory.
 
-* <b>For this dircetory to become a Go module, we use the command 'go mod init <module_path>'.</b>
+* <b>For this directory to become a Go module, we use the command 'go mod init <module_path>'.</b>
 
 * This module path is a globally unique identifier. It could be something like github.com/username and then your repository name. Example, example.com/learn.
