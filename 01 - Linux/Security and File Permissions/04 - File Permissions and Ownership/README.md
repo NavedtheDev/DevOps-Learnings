@@ -1,4 +1,4 @@
-* Use th ebelow command we can determine the file type and the permissions it has,
+* Use the below command we can determine the file type and the permissions it has,
 
 ```
 ls -l <name_of_file>
