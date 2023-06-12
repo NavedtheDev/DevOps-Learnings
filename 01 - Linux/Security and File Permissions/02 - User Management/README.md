@@ -1,6 +1,6 @@
 * useradd <name_of_user> -> this command is used by the system administrators to create a new local user in the system. 
 
-* passwd <name_of_user> -> To set the passwoed for the user created above. 
+* passwd <name_of_user> -> To set the password for the user created above. 
 
 * useradd command can be used with options. Here is how,
 
