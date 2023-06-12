@@ -25,3 +25,5 @@
 * <b>For this directory to become a Go module, we use the command 'go mod init <module_path>'.</b>
 
 * This module path is a globally unique identifier. It could be something like github.com/username and then your repository name. Example, example.com/learn.
+  
+<b>NOTE:</b> To create a module out of a directory, use the go mod init command.
