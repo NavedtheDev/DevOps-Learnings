@@ -3,3 +3,5 @@
 * It is an object based storage. 
 
 * In S3, data is stored in the form of an S3 bucket. A bucket can be considered as a container or a directory which stores all your files. We can create as many of these buckets as we need in our AWS account. 
+
+* Everything within a bucket is an object. 
