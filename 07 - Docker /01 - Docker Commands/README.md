@@ -11,10 +11,28 @@ docker run <image_name>
 ```
 This command is also used to pull the image from docker hub and run the the container from that image.
 
-* To list all running conatiners,
+* To list all running containers,
 
 ```
 docker ps
+```
+
+* To see all the running as well as stopped containers,
+
+```
+docker ps -a 
+```
+
+* To stop a single container,
+
+```
+docker stop <container_ID>
+```
+
+* To remove a single container,
+
+```
+docker rm <container_ID>
 ```
 
 * To stop all the containers at once,
@@ -29,7 +47,13 @@ docker stop $(docker ps -aq)
 docker rm $(docker ps -aq)
 ```
 
-* command to delete all the available images
+* To delete a single image,
+
+```
+docker rmi <image_name>
+```
+
+* To delete all the images,
 
 ```
 docker rmi $(docker images -aq)
