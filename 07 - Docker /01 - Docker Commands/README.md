@@ -28,3 +28,9 @@ docker stop $(docker ps -aq)
 ```
 docker rm $(docker ps -aq)
 ```
+
+* command to delete all the available images
+
+```
+docker rmi $(docker images -aq)
+```
