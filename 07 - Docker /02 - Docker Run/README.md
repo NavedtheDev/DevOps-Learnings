@@ -29,3 +29,15 @@ Example,
 ```
 docker run -v /opt/datadir:/var/lib/mysql mysql
 ```
+
+* To get information about a speciifc conatiner,
+
+```
+docker inspect <container_ID_OR_container_name>
+```
+
+* To get logs of a speciifc container,
+
+```
+docker logs <container_ID_OR_container_name>
+```
