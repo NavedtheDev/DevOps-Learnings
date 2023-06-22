@@ -8,3 +8,15 @@ Example,
 docker run redis:5.0.5
 ```
 
+* To run a container in an interactive mode witha terminal,
+
+```
+docker run -it <image_name>
+```
+
+* To do port mapping,
+
+```
+docker run -p <host's_port>:<container's_port>
+```
+
