@@ -20,3 +20,12 @@ docker run -it <image_name>
 docker run -p <host's_port>:<container's_port>
 ```
 
+* To make your data persistent,
+
+```
+docker run -v <external_directory>:<container's_directory> <container_name>
+```
+Example,
+```
+docker run -v /opt/datadir:/var/lib/mysql mysql
+```
