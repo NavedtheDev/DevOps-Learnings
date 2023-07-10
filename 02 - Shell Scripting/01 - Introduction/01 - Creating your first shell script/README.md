@@ -16,7 +16,7 @@
 echo PATH=$PATH:/home/naved
 ```
 
-* For a shell script to work, we must set the correct permissions to the file, else ot will show a permission denied error. The execute bit needs to be set for thr file to be considered as an executable. 
+* For a shell script to work, we must set the correct permissions to the file, else it will show a permission denied error. The execute bit needs to be set for thr file to be considered as an executable. 
 
 * We can add that using the chmod command and make it executable. Example,
 
