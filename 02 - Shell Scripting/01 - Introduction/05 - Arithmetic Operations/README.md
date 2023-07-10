@@ -14,7 +14,7 @@ Output,
 Similarly, we can do other mathematical operations like subtraction, multiplication and division. While doing multiplication, we must escape the star symbol with a backslash, because star is a reserved character in shell. Example,
 
 ```
-expr 2\*9
+expr 2 \* 9
 ```
 Output,
 ```
