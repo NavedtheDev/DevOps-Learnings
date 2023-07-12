@@ -11,6 +11,12 @@ docker run <image_name>
 ```
 This command is also used to pull the image from docker hub and run the the container from that image.
 
+* To run a command in a detached mode,
+
+```
+docker run -d <image_name>
+```
+
 * To list all running containers,
 
 ```
