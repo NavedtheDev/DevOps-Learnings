@@ -2,7 +2,7 @@
 
 * A case block starts with the case statement and ends with the esac statement. Now on the case statement we specify the value or a variable we would like to check for. 
 
-* Within the case block we add different cases and the associated code for each case. The value in the variable is compared against each value or pattren specified within the block before the right parenthesis. 
+* Within the case block we add different cases and the associated code for each case. The value in the variable is compared against each value or pattern specified within the block before the right parenthesis. 
 
 * If none of it is a match, then it will always match with the star at the end. It is like the else at the end.
 
