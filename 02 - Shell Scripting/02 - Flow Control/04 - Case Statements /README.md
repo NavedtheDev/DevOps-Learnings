@@ -1,6 +1,6 @@
 * Consider the very last example. The if conditional block with a lot of if and else if statements can be written in a better way using case statements. 
 
-* A case block starts with athe case statement and ends with the esac statement. Now on the case statement we specify the value or a variable we would like to check for. 
+* A case block starts with the case statement and ends with the esac statement. Now on the case statement we specify the value or a variable we would like to check for. 
 
 * Wihin the case block we add different cases and the associated code for each case. The value in the variable is compared against each value or pattren specified within the block before the right parenthesis. 
 
