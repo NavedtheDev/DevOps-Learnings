@@ -64,3 +64,9 @@ docker rmi <image_name>
 ```
 docker rmi $(docker images -aq)
 ```
+
+* To restart a container afer stopping it,
+
+```
+docker start <container_ID_of_stopped_container>
+```
