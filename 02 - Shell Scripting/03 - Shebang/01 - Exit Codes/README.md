@@ -2,7 +2,7 @@
 
 * A successful command returns an exit status of zero, and a failed command returns an exit status that is not zero(>1). 
 
-* Where do we see these exit codes? Exit code of a command is stored in a special built-in variable called dollar question mark. To see the xit code of a command, run,
+* Where do we see these exit codes? Exit code of a command is stored in a special built-in variable called dollar question mark. To see the exit code of a command, run,
 
 ```
 echo $?
