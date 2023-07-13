@@ -1,4 +1,4 @@
-* Some expressions we learned earlier may not work in every other shell. If you share your script with others, then you must specify the shell it runs in. That is where Shebnag can help.
+* Some expressions we learned earlier may not work in every other shell. If you share your script with others, then you must specify the shell it runs in. That is where Shebang can help.
 
 * A Shebang statement is a line that you specify at the top of a shell script. It starts with a hash followed by an exclamation mark and then the path to a shell. 
 
