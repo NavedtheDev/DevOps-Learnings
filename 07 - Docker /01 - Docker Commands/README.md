@@ -70,3 +70,9 @@ docker rmi $(docker images -aq)
 ```
 docker start <container_ID_of_stopped_container>
 ```
+
+* Suppose you want to give a name to your container instead of a random name. Use the --name flag.
+
+```
+docker run --name redis-older redis:4.0
+```
