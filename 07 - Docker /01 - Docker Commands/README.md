@@ -76,3 +76,9 @@ docker start <container_ID_of_stopped_container>
 ```
 docker run --name redis-older redis:4.0
 ```
+
+* To get the logs of a container,
+
+```
+docker logs <container_ID_OR_container_Name>
+```
