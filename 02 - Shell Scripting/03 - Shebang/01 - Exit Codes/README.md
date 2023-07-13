@@ -1,4 +1,4 @@
-* When we run a command, it is either successful or failed. Apart from the message tha we see on our screen, each command also returns an exit code or a return code. 
+* When we run a command, it is either successful or failed. Apart from the message that we see on our screen, each command also returns an exit code or a return code. 
 
 * A successful command returns an exit status of zero, and a failed command returns an exit status that is not zero(>1). 
 
