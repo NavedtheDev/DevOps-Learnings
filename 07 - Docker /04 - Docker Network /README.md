@@ -2,4 +2,8 @@
 
 * By default, docker already provides some networks.
 
-* 
+* To see the available docker networks,
+
+```
+docker network ls 
+```
