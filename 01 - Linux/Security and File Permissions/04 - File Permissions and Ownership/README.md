@@ -20,10 +20,13 @@ chmod <permission> <file_name>
 * Permissions can be modified in two ways, symbolic mode and numeric mode. Both lead to the same result. 
 
    1. In symbolic mode, the first characters following the chmod command specify whose permissions you want to change. For user use u, g for group and o for others. After these characters, we need to specify if we want to grant access using plus symbol or revoke existing access with the minus symbol. Finally, we provide the file or directory for which the permissions have to be changed. Example,
+  
    ```
    chmod ugo+r-x example.txt -> Provide read access to owners, groups, and others, Remove execute access.
    ```
-   2. In numeric mode, we specify the permission to be updated in terms of the three digit octal values. The first among the three digit is for the owner, second one is for group and third one is for others. 
+   
+   2. In numeric mode, we specify the permission to be updated in terms of the three digit octal values. The first among the three digit is for the owner, second one is for group and third one is for others.
+  
    ```
    chmod 555 example.txt -> Provide read and execute access to owners, groups and others.
    ```
