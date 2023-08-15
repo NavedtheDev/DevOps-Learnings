@@ -22,7 +22,7 @@ sudo systemctl status project-mercury.service
 * To stop the service,
 
 ```
-sudo systemctl status project-mercury.service
+sudo systemctl stop project-mercury.service
 ```
 
 * To allow the above service to be enabled during boot, add another section called install. 
