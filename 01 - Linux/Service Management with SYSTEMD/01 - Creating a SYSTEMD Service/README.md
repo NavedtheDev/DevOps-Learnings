@@ -13,7 +13,7 @@
 sudo systemctl start project-mercury.service
 ```
 
-* To chcek it's status,
+* To check it's status,
 
 ```
 sudo systemctl status project-mercury.service
