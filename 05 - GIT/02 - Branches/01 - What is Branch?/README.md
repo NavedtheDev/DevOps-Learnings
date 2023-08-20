@@ -36,6 +36,6 @@ git branch
 
 # HEAD #
 
-* A HEAD is where we are right now in th egit repository. The HEAD points to the last commit in the branch that you are currently on. 
+* A HEAD is where we are right now in the git repository. The HEAD points to the last commit in the branch that you are currently on. 
 
 * When you switch branches, the HEAD moves with you. 
