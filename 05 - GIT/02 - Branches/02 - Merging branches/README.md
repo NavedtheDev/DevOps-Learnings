@@ -6,7 +6,7 @@ git merge <branch_name>
 
 * This command recieves the name of the branch that we want to merge into our current branch. 
 
-* There are two types of merges that GIT can perform, a fast-forward merge and a no-fats-forward merge. 
+* There are two types of merges that GIT can perform, a fast-forward merge and a no-fast-forward merge. 
 
 * A fast-forward merge can happen when the current branch has no extra commits compared to the branch that we're merging. 
 
