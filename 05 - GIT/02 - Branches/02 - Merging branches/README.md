@@ -1,4 +1,4 @@
-* We can merge a command to the main branch with the command,
+* We can merge a branch to the main branch with the command,
 
 ```
 git merge <branch_name>
