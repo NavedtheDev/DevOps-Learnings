@@ -1,4 +1,4 @@
-* Continuous Integration and Continuous Deployment/Delivery is a way to take code, package it up abd deploy it to a system. That system could be anything like a VM, an EC2, etc.
+* Continuous Integration and Continuous Deployment/Delivery is a way to take code, package it up and deploy it to a system. That system could be anything like a VM, an EC2, etc.
 
 ## What is CI? ##
 
