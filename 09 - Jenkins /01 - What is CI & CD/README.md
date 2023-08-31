@@ -14,4 +14,11 @@
 
 ## What is CD? ##
 
-* It is the process where you deploy the code to some system. Think of that gift gain that you wrapped. Once you wrapped it up it can be given to a person. That's the CD prcess. Once the code is packages and tested and all those steps in the CI process, you then deliver it whatever system you are running on. 
+* It is the process where you deploy the code to some system. Think of that gift gain that you wrapped. Once you wrapped it up it can be given to a person. That's the CD prcess. Once the code is packages and tested and all those steps in the CI process, you then deliver it whatever system you are running on.
+
+
+## Continuous Delivery Vs. Continuous Deployment ##
+
+* In Continuous Delivery, there is some button somewhere to deploy the code for some manual intervention. In short, there is manual interevention.
+
+* Continuous Deployment, means the code gets automatically deployed after the CI process. Let us say that you are committing and pushing some code to GitHub. 
