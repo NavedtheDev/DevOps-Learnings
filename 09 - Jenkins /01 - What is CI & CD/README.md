@@ -12,3 +12,6 @@
 
 
 
+## What is CD? ##
+
+* It is the process where you deploy the code to some system. Think of that gift gain that you wrapped. Once you wrapped it up it can be given to a person. That's the CD prcess. Once the code is packages and tested and all those steps in the CI process, you then deliver it whatever system you are running on. 
