@@ -21,4 +21,10 @@
 
 * In Continuous Delivery, there is some button somewhere to deploy the code for some manual intervention. In short, there is manual interevention.
 
-* Continuous Deployment, means the code gets automatically deployed after the CI process. Let us say that you are committing and pushing some code to GitHub. 
+* Continuous Deployment, means the code gets automatically deployed after the CI process. Let us say that you are committing and pushing some code to GitHub. Once it gets pushed to GitHub, the CI process would automatically kick off. Then once the code builds, the CD process would automatically run, and it would be deployed to the desired system. In short, everything is automatic, no human intervention.
+
+
+
+* The key pieces of CD:
+  1. It ensure that you are authenticated to the system or wherever you are deploying.
+  2. Ensure that the code that is been deployed is working as expected once deployed. 
