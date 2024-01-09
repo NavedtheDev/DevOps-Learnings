@@ -21,3 +21,5 @@ We have 4 main terms here:
 ## Let us create an AWS IAM user ##
 
 Checkout my blog where I have explained it in detail.
+
+Here is the link: https://navedwrites.hashnode.dev/aws-identity-and-access-management
