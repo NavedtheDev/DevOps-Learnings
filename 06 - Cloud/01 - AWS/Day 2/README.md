@@ -17,3 +17,7 @@ We have 4 main terms here:
 3. <b>Groups:</b> A group is a collection of IAM users. Instead of attaching policies directly to individual users, you can create a group, attach policies to the group, and then add users to the group. This helps in managing and assigning permissions at scale, making it more efficient to handle access control.
 
 4. <b>Roles:</b> A role is another entity that you can create and manage. However, unlike groups or users, roles are not associated with a specific AWS identity, such as a user or a group. Instead, roles define a set of permissions for making AWS service requests and are assumed by AWS resources or users outside of your AWS account.
+
+## Let us create an AWS IAM user ##
+
+Checkout my blog where I have explained it in detail.
