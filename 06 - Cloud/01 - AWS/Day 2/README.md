@@ -12,7 +12,7 @@ We have 4 main terms here:
 
 1. <b>Users:</b> IAM users are individual entities with unique credentials within an AWS account. They are assigned policies defining their permissions, allowing them to interact with AWS resources.
 
-2. <b>Policies:</b>IAM policies are documents defining permissions and access control rules. They specify what actions are allowed or denied on AWS resources for users, groups, or roles. Policies are attached to these entities to regulate their access, providing a granular and secure way to manage permissions within the AWS environment.
+2. <b>Policies:</b> IAM policies are documents defining permissions and access control rules. They specify what actions are allowed or denied on AWS resources for users, groups, or roles. Policies are attached to these entities to regulate their access, providing a granular and secure way to manage permissions within the AWS environment. If we attach no policies, the user will not be able to do anything except logging in.
 
 3. <b>Groups:</b> A group is a collection of IAM users. Instead of attaching policies directly to individual users, you can create a group, attach policies to the group, and then add users to the group. This helps in managing and assigning permissions at scale, making it more efficient to handle access control.
 
